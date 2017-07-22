@@ -1,6 +1,6 @@
 {
-  "name": "liga-pge",
-  "version": "1.0.0",
+  "name": "cartola-pge-fe",
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -9,10 +9,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-  },
-  "engines": {
-    "node": "7.5.0",
-    "npm": "5.3.0"
   },
   "private": true,
   "dependencies": {
