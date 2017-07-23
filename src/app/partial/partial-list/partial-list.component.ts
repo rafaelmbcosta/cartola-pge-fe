@@ -21,6 +21,7 @@ export class PartialListComponent implements OnInit {
 
   ) {}
   //
+
   ngOnInit() {
     let timer = Observable.timer(0, 5000)
     timer.subscribe(() => this.getPartials());
