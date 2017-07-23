@@ -1,6 +1,15 @@
 .score{
+  vertical-align: middle;
   font-size: 50px;
 }
 .card{
   margin-bottom: 20px;
+}
+.position{
+  font-size: 40px;
+}
+.position-text{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10  px;
 }
