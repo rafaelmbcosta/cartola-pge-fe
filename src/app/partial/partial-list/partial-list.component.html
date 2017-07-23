@@ -1,7 +1,7 @@
 <h3> Parciais </h3>
 <div *ngFor="let partial of partials; let i = index" class="card col-md-8">
 
-  <div class="card-block col-md-12">
+  <div class="card-block col-md-12" (click)="getPartialItem(partial)">
     <div class="row">
       <div class="col-md-2 text-center position">
         <div class="position-text" *ngIf="partials.length != i+1; else fona">{{ i+1 }}</div>

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PartialService } from '../partial.service';
 import { Observable } from 'rxjs/Rx';
 import { Partials } from '../partials';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-partial-list',
@@ -17,8 +18,8 @@ export class PartialListComponent implements OnInit {
   position = 1;
   //
   constructor(
-    private partialService: PartialService
-
+    private partialService: PartialService,
+    private router: Router
   ) {}
   //
 
@@ -35,9 +36,10 @@ export class PartialListComponent implements OnInit {
         );
   }
 
-  // goToShow(season: Season): void {
-  //   let link = ['/seasons', season.id];
-  //   this.router.navigate(link);
-  // }
+  getPartialItem(partials: Partials): void {
+    console.log(partials.team_id);
+    let link = ['/app-partial-item', partials.team_id];
+    this.router.navigate(link);
+  }
 
 }
