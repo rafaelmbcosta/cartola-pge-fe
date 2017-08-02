@@ -11,11 +11,17 @@ import { Http, HttpModule, RequestOptions } from '@angular/http';
 import { PartialService } from './partial/partial.service';
 import { routes } from './app.routes';
 import { PartialItemComponent } from './partial/partial-item/partial-item.component';
+import { DisputeMonthListComponent } from './dispute-month/dispute-month-list/dispute-month-list.component';
+import { LeagueListComponent } from './league/league-list/league-list.component';
+import { BattleListComponent } from './battle/battle-list/battle-list.component';
 @NgModule({
   declarations: [
     AppComponent,
     PartialListComponent,
-    PartialItemComponent
+    PartialItemComponent,
+    DisputeMonthListComponent,
+    LeagueListComponent,
+    BattleListComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +31,7 @@ import { PartialItemComponent } from './partial/partial-item/partial-item.compon
       useHash: true
     })
   ],
-  providers: [ PartialService ],
+  providers: [ PartialService,  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

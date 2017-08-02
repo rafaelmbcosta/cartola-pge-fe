@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   selector: 'app-partial-list',
   templateUrl: './partial-list.component.html',
   styleUrls: ['./partial-list.component.css'],
-  providers: [ PartialService]
+  providers: [ PartialService ]
 })
 export class PartialListComponent implements OnInit {
   //
