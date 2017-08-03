@@ -21,7 +21,7 @@ export class DisputeMonthListComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    let timer = Observable.timer(0, 5000)
+    let timer = Observable.timer(0, 5*  60*1000)
     timer.subscribe(() => this.getDisputeMonths());
   }
 
