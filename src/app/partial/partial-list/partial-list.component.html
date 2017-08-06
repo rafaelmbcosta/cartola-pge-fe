@@ -1,5 +1,5 @@
 <h3> Parciais </h3>
-<div *ngFor="let partial of partials; let i = index" class="card col-md-8">
+<div *ngFor="let partial of partials; let i = index" class="card col-md-12">
 
   <div class="card-block col-md-12" (click)="getPartialItem(partial)">
     <div class="row">
@@ -7,12 +7,14 @@
         <div class="position-text" *ngIf="partials.length != i+1; else fona">{{ i+1 }}</div>
         <ng-template #fona class="position-text"> FONA </ng-template>
       </div>
-
-      <div class="col-md-7">
-        <h4 class="card-title"> {{ partial.team_name }} ({{ partial.player_name }}) </h4>
+      <div class="col-md-2 text-center">
+        <img src="{{ partial.team_symbol }}" alt="simbolo"/>
+      </div>
+      <div class="col-md-5 text-center">
+        <h4 class="card-title text-center"> {{ partial.team_name }} ({{ partial.player_name }}) </h4>
         Jogadores: {{ partial.players }}/12
       </div>
-      <div class="score col-md-3 text-center"> {{ partial.partial_score }}</div>
+      <div class="score col-md-3 text-center"> {{ partial.partial_score | number : '1.2-2' }}</div>
     </div>
   </div>
 </div>

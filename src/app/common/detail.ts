@@ -1,6 +1,6 @@
-export class DisputeMonth {
+export class Detail {
   constructor (
-    public name?: string,
-    // public player_name?: string,
+    public round?: number,
+    public points?: number
   ){}
 }

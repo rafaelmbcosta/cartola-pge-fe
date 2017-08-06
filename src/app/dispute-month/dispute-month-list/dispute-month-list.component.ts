@@ -11,7 +11,6 @@ import { DisputeMonth } from '../dispute-month'
   providers: [ DisputeMonthService]
 })
 export class DisputeMonthListComponent implements OnInit {
-
   months: DisputeMonth[];
   errorMessage: string;
 
