@@ -1,21 +1,28 @@
 <div class="row">
   <div *ngFor="let league of leagues" class="col-md-6">
     <h3 class="text-center">{{ league.name }}</h3>
-
-    <table class="table">
-      <thead>
-        <th>Cartoleiro</th>
-        <th>Pontos</th>
-        <th>Diferença</th>
-      </thead>
-      <tbody>
-        <tr *ngFor="let player of league.players">
-          <td>{{ player.name }} ( {{ player.team }} )</td>
-          <td>{{ player.points}}</td>
-          <td>{{ player.diff_points }}</td>
-        </tr>
-      </tbody>
-    </table>
-
+    <div class="card" *ngFor="let player of league.players; let i = index">
+      <div class="card-block">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-9"><div class="position pull-left">{{ i + 1 }}</div><div class="text-center">{{ player.name }} ( {{ player.team }} )</div></div>
+              <div class="col-md-2 text-center">{{ player.points }}</div>
+              <div class="col-md-1 text-center"><a href="#collapse{{league.id}}{{i+1}}" data-toggle="collapse" aria-expanded="false"><i class="fa fa-angle-down text-center"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="collapse{{league.id}}{{i+1}}" class="collapse card-footer">
+        <div class="row">
+          <div *ngFor="let detail of player.details" class="card col-md-4">
+            <div class="card-block text-center">
+              <div class="card-text">Rodada {{ detail.round }}</div>
+              <div class="card-text"><b> {{ detail.points }}</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

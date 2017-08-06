@@ -7,6 +7,7 @@ export class Partials {
     public round_id?: number,
     public partial_score?: number,
     public final_score?: number,
-    public players?: number
+    public players?: number,
+    public team_symbol?: string
   ){}
 }
