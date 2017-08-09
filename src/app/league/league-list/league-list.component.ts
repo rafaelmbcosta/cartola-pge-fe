@@ -25,6 +25,11 @@ export class LeagueListComponent implements OnInit {
     timer.subscribe(() => this.getLeagues());
   }
 
+  detailBackground(points){
+    if (points == 3){ return "alert-success"; }
+    if (points == 0){ return "alert-danger"; }
+  }
+
   getLeagues(){
     this.leagueService.getLeagues()
         .subscribe(
@@ -32,5 +37,4 @@ export class LeagueListComponent implements OnInit {
           error => this.errorMessage = <any>error
         );
   }
-
 }
