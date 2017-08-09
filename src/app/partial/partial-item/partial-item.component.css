@@ -1,9 +1,12 @@
 .nickname{
-  font-size: 22px;
+  font-size: 1.5vw;
 }
 .scouts{
-  font-size: 12px;
+  font-size: 0.7vw;
 }
 .position{
-  font-size: 16px;
+  font-size: 1.3vw;
+}
+img{
+  width: 50%;
 }
