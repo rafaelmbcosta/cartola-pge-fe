@@ -14,6 +14,7 @@ import { PartialItemComponent } from './partial/partial-item/partial-item.compon
 import { DisputeMonthListComponent } from './dispute-month/dispute-month-list/dispute-month-list.component';
 import { LeagueListComponent } from './league/league-list/league-list.component';
 import { BattleListComponent } from './battle/battle-list/battle-list.component';
+import { SeasonScoreListComponent } from './season-score/season-score-list/season-score-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { BattleListComponent } from './battle/battle-list/battle-list.component'
     PartialItemComponent,
     DisputeMonthListComponent,
     LeagueListComponent,
-    BattleListComponent
+    BattleListComponent,
+    SeasonScoreListComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,7 @@ import { BattleListComponent } from './battle/battle-list/battle-list.component'
       useHash: true
     })
   ],
-  providers: [ PartialService,  ],
+  providers: [ PartialService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
