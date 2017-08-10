@@ -1,25 +1,29 @@
 .score{
   vertical-align: middle;
-  font-size: 2vw;
+  font-size: 14px;
+  font-size: 2.5vw;
 }
 .card{
   cursor: pointer;
   margin-bottom: 10px;
 }
+
 .position{
-  font-size: 2vw;
+  margin-top: 3%;
 }
 .position-text{
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 10px;
+  font-size: 14px;
+  font-size: 2.5vw;
 }
 img{
-  width: 40%;
+  width: 8vw;
+  height: 8vw;
 }
 .text-name{
-  font-size: 1.3vw;
+  font-size: 14px;
+  font-size: 2.5vw;
 }
 .players{
-  font-size: 1vw;
+  font-size: 12px;
+  font-size: 2vw;
 }
