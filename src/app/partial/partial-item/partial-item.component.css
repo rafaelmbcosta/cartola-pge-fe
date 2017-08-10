@@ -1,12 +1,20 @@
 .nickname{
-  font-size: 1.5vw;
+  font-size: 16px;
+  font-size: 2vw;
 }
 .scouts{
-  font-size: 0.7vw;
+  font-size: 14px;
+  font-size: 1vw;
 }
 .position{
-  font-size: 1.3vw;
+  font-size: 14px;
+  font-size: 1.5vw;
 }
 img{
-  width: 50%;
+  width: 7vw;
+  height: 7vw;
+}
+.points{
+  font-size: 16px;
+  font-size: 2vw;
 }

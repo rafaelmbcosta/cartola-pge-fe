@@ -1,19 +1,19 @@
 import { Injectable } from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Rx';
-// import { League } from './league';
+import { SeasonScore } from './season-score';
 
 @Injectable()
 export class SeasonScoreService {
-  // private seasonScoreUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/season_score';
-  private seasonScoreUrl = 'http://localhost:3000/api/v1/season_score';
+  private seasonScoreUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/season_score';
+  // private seasonScoreUrl = 'http://localhost:3000/api/v1/season_score';
 
   constructor(
     private http: Http,
   ) {}
 
-  getLeagues(): Observable<League[]> {
+  getSeasonScores(): Observable<SeasonScore[]> {
     return this.http.get(this.seasonScoreUrl)
-                      .map((response: Response) => <League[]>response.json())
+                      .map((response: Response) => <SeasonScore[]>response.json())
   }
 }

@@ -33,7 +33,7 @@ import { SeasonScoreListComponent } from './season-score/season-score-list/seaso
       useHash: true
     })
   ],
-  providers: [ PartialService,  ],
+  providers: [ PartialService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
