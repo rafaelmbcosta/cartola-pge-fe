@@ -7,6 +7,7 @@ import { DisputeMonthListComponent } from './dispute-month/dispute-month-list/di
 import { LeagueListComponent } from './league/league-list/league-list.component';
 import { BattleListComponent } from './battle/battle-list/battle-list.component';
 import { SeasonScoreListComponent} from './season-score/season-score-list/season-score-list.component';
+import { RulesComponent } from './rules/rules.component';
 // Define which component should be loaded based on the current URL
 export const routes: Routes = [
   { path: '', component: DisputeMonthListComponent },
@@ -15,5 +16,6 @@ export const routes: Routes = [
   { path: 'app-dispute-month-list', component: DisputeMonthListComponent },
   { path: 'app-league-list', component: LeagueListComponent },
   { path: 'app-battle-list', component: BattleListComponent },
-  { path: 'app-season-score-list', component: SeasonScoreListComponent }
+  { path: 'app-season-score-list', component: SeasonScoreListComponent },
+  { path: 'app-rules', component: RulesComponent }
 ];
