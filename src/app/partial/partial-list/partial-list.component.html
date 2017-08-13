@@ -1,5 +1,5 @@
 <h3> Parciais </h3>
-<div *ngFor="let partial of partials; let i = index" class="card col-md-12 col-sm-12 col-12">
+<div *ngFor="let partial of partials; let i = index" class="card col-md-12 col-sm-12 col-12 alert-{{ partial.battle_class}}">
 
   <div class="card-block col-md-12 col-sm-12 col-12" (click)="getPartialItem(partial)">
     <div class="row">
@@ -15,8 +15,16 @@
       <div class="col-md-5 col-sm-5 col-5 text-center">
         <h4 class="card-title text-center text-name"> {{ partial.team_name }} ({{ partial.player_name }}) </h4>
         <span class="players">Jogadores: {{ partial.players }}/12</span>
+        <div class="col-md-12 col-sm-12 col-12 players">
+          vs {{ partial.battle_opponent }} ({{ partial.diff_points | number : '1.2-2' }})
+        </div>
       </div>
-      <div class="score col-md-2 col-sm-2 col-2 text-center"> {{ partial.partial_score | number : '1.2-2' }}</div>
+      <div class="score col-md-2 col-sm-2 col-2 text-center">
+        <div class="col-md-12 col-sm-12 col-12">
+          {{ partial.partial_score | number : '1.2-2' }}
+        </div>
+
+      </div>
     </div>
   </div>
 </div>

@@ -8,6 +8,9 @@ export class Partials {
     public partial_score?: number,
     public final_score?: number,
     public players?: number,
-    public team_symbol?: string
+    public team_symbol?: string,
+    public battle_class?: string,
+    public battle_opponent?: string,
+    public diff_points?: number
   ){}
 }
