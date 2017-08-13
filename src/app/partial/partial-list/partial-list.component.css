@@ -1,7 +1,8 @@
 .score{
   vertical-align: middle;
+  margin-top: 2%;
   font-size: 14px;
-  font-size: 2.5vw;
+  font-size: 3.2vw;
 }
 .card{
   cursor: pointer;
