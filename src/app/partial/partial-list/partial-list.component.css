@@ -6,8 +6,8 @@ h3{
 @media(max-width: 750px){
   .score{
     vertical-align: middle;
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 30px;
+    font-size: 12px;
   }
   .card{
     cursor: pointer;
@@ -15,8 +15,8 @@ h3{
   }
 
   .position-text{
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 13px;
   }
   img{
     margin-top: 10px;
@@ -24,10 +24,10 @@ h3{
     height: 50px;
   }
   .text-name{
-    font-size: 14px;
+    font-size: 11px;
   }
   .players{
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
@@ -82,6 +82,6 @@ h3{
     font-size: 20px;
   }
   .players{
-    font-size: 16px;
+    font-size: 14px;
   }
 }
