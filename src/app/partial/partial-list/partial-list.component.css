@@ -1,30 +1,87 @@
-.score{
-  vertical-align: middle;
-  margin-top: 2%;
-  font-size: 14px;
-  font-size: 3.2vw;
-}
-.card{
-  cursor: pointer;
+h3{
+  text-align: center;
   margin-bottom: 10px;
 }
 
-.position{
-  margin-top: 3%;
+@media(max-width: 750px){
+  .score{
+    vertical-align: middle;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .card{
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+
+  .position-text{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .text-name{
+    font-size: 14px;
+  }
+  .players{
+    font-size: 10px;
+  }
 }
-.position-text{
-  font-size: 14px;
-  font-size: 2.5vw;
+
+@media(min-width: 750px) and (max-width: 975px){
+  .score{
+    vertical-align: middle;
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  .card{
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+
+  .position-text{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  img{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .text-name{
+    font-size: 16px;
+  }
+  .players{
+    font-size: 13px;
+  }
 }
-img{
-  width: 8vw;
-  height: 8vw;
-}
-.text-name{
-  font-size: 14px;
-  font-size: 2.5vw;
-}
-.players{
-  font-size: 12px;
-  font-size: 2vw;
+
+@media(min-width: 975px){
+  .score{
+    vertical-align: middle;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .card{
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+
+  .position-text{
+    margin-top: 15px;
+    font-size: 36px;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+  }
+  .text-name{
+    font-size: 20px;
+  }
+  .players{
+    font-size: 16px;
+  }
 }
