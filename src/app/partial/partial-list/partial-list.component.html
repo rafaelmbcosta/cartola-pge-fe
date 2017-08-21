@@ -3,7 +3,7 @@
 
   <div class="card-block col-md-12 col-sm-12 col-12" (click)="getPartialItem(partial)">
     <div class="row">
-      <div class="col-md-2 col-sm-2 col-2 text-center position">
+      <div class="col-md-1 col-sm-1 col-1 text-center position">
         <div class="position-text" *ngIf="partials.length != i+1; else fona">{{ i+1 }}</div>
         <ng-template #fona><div class="position-text">FONA</div> </ng-template>
       </div>
@@ -13,13 +13,13 @@
         </div>
       </div>
       <div class="col-md-6 col-sm-6 col-6 text-center">
-        <h4 class="card-title text-center text-name"> {{ partial.team_name }} ({{ partial.player_name }}) </h4>
-        <span class="players">Jogadores: {{ partial.players }}/12</span>
+        <div class="card-title text-center text-name"> {{ partial.team_name }}<br/> ({{ partial.player_name }}) </div>
         <div class="col-md-12 col-sm-12 col-12 players">
+          Jogadores: {{ partial.players }}/12<br/>
           vs {{ partial.battle_opponent }} ({{ partial.diff_points | number : '1.2-2' }})
         </div>
       </div>
-      <div class="score col-md-2 col-sm-2 col-2 ">
+      <div class="score col-md-2 col-sm-2 col-2">
         <div class="col-md-12 col-sm-12 col-12 pull-right">
           {{ partial.partial_score | number : '1.2-2' }}
         </div>
