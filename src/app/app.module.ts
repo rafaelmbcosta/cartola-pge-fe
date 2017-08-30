@@ -16,6 +16,7 @@ import { LeagueListComponent } from './league/league-list/league-list.component'
 import { BattleListComponent } from './battle/battle-list/battle-list.component';
 import { SeasonScoreListComponent } from './season-score/season-score-list/season-score-list.component';
 import { RulesComponent } from './rules/rules.component';
+import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { RulesComponent } from './rules/rules.component';
     LeagueListComponent,
     BattleListComponent,
     SeasonScoreListComponent,
-    RulesComponent
+    RulesComponent,
+    CurrencyListComponent
   ],
   imports: [
     BrowserModule,

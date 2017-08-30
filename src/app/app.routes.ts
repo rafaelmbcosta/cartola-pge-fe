@@ -6,6 +6,7 @@ import { PartialItemComponent } from './partial/partial-item/partial-item.compon
 import { DisputeMonthListComponent } from './dispute-month/dispute-month-list/dispute-month-list.component';
 import { LeagueListComponent } from './league/league-list/league-list.component';
 import { BattleListComponent } from './battle/battle-list/battle-list.component';
+import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
 import { SeasonScoreListComponent} from './season-score/season-score-list/season-score-list.component';
 import { RulesComponent } from './rules/rules.component';
 // Define which component should be loaded based on the current URL
@@ -17,5 +18,6 @@ export const routes: Routes = [
   { path: 'app-league-list', component: LeagueListComponent },
   { path: 'app-battle-list', component: BattleListComponent },
   { path: 'app-season-score-list', component: SeasonScoreListComponent },
+  { path: 'app-currency-list', component: CurrencyListComponent },
   { path: 'app-rules', component: RulesComponent }
 ];
