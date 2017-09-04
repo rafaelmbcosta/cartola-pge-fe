@@ -4,3 +4,9 @@
 .container{
   width: 100%;
 }
+.navbar-brand{
+  color: #FFF;
+}
+.nav-item a{
+  color: #FFF;
+}

@@ -5,8 +5,8 @@ import { DisputeMonth } from './dispute-month';
 
 @Injectable()
 export class DisputeMonthService {
-  private disputeUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/dispute_months';
-  // private disputeUrl = 'http://localhost:3000/api/v1/dispute_months';
+  // private disputeUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/dispute_months';
+  private disputeUrl = 'http://localhost:3000/api/v1/dispute_months';
 
   constructor(
     private http: Http,
