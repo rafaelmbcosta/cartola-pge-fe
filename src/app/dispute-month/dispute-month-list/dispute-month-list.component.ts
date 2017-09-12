@@ -13,15 +13,38 @@ import { DisputeMonth } from '../dispute-month'
 export class DisputeMonthListComponent implements OnInit {
   months: DisputeMonth[];
   errorMessage: string;
+  active: number;
+
+  setActive(id){
+    this.active = id;
+  }
+
+  isActive(id){
+    if (id == this.active){
+      return true;
+    }
+    if (this.active == null){
+      this.active = id
+      return true;
+    }
+  }
 
   constructor(
     private disputeMonthService: DisputeMonthService,
-    private router: Router
+    private router: Router,
   ) { }
 
   ngOnInit() {
     let timer = Observable.timer(0, 5*  60*1000)
     timer.subscribe(() => this.getDisputeMonths());
+  }
+
+  tag(id){
+    return "pills_"+id;
+  }
+
+  label(id){
+    return "tab_"+id
   }
 
   getDisputeMonths(){

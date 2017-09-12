@@ -1,0 +1,122 @@
+* {
+  outline: none;
+}
+/*Font Smoothing*/
+body,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+p,
+.navbar,
+.brand,
+.alert,
+a,
+td {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+a {
+  color: #008271;
+}
+a:hover, a:active, a:focus {
+  color: #008271;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-weight: 300;
+  color: #008271;
+}
+h1, .h1 {
+  font-size: 52px;
+}
+h2, .h2 {
+  font-size: 36px;
+}
+h3, .h3 {
+  font-size: 28px;
+}
+h4, .h4 {
+  font-size: 18px;
+}
+h5, .h5 {
+  font-size: 16px;
+  color: #9A9A9A;
+}
+h6, .h6 {
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+hr.div-row {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image:
+  linear-gradient(to right, #eee, #d6d6d6, #eee);
+}
+/*navbar config*/
+.navbar {
+  padding: 0 !important;
+}
+.navbar-brand {
+  background-color: #00a38e;
+  padding: 1em 1.5rem;
+  display: block;
+  line-height: 30px;
+}
+/*body/container config*/
+.container-main{
+  margin-top: 120px;
+  margin-bottom: 90px;
+}
+.container{
+  width: 100%;
+}
+
+/*loader config*/
+.loader {
+  position:absolute;
+	left:50%;
+	top:50%;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+svg path, svg rect {
+  fill: #ffffff;
+}
+.loading-bg {
+  background: url(./~/assets/images/loading_bg.jpg) no-repeat fixed;
+  background-position:top;
+  background-size: cover;
+  height: 891px;
+  overflow-y: auto;
+  overflow: hidden;
+}
+
+/*navpills config*/
+.nav-pills .nav-link {
+  background-color: #fafafa;
+  margin: 0 2px;
+}
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+  background-color: transparent;
+  color: #8c9492;
+  padding: 0 10px;
+  line-height: 30px;
+  display: block;
+  border: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #008271 100%);
+    -webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #008271 100%);
+    border-image: linear-gradient(to bottom right, #3acfd5 0%, #008271 100%);
+
+    border-image-slice: 1;
+}

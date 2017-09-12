@@ -17,6 +17,7 @@ import { BattleListComponent } from './battle/battle-list/battle-list.component'
 import { SeasonScoreListComponent } from './season-score/season-score-list/season-score-list.component';
 import { RulesComponent } from './rules/rules.component';
 import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
+import { DisputeMonthItemComponent } from './dispute-month/dispute-month-list/dispute-month-item/dispute-month-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { CurrencyListComponent } from './currencies/currency-list/currency-list.
     BattleListComponent,
     SeasonScoreListComponent,
     RulesComponent,
-    CurrencyListComponent
+    CurrencyListComponent,
+    DisputeMonthItemComponent
   ],
   imports: [
     BrowserModule,
