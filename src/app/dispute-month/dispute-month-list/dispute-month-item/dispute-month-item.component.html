@@ -17,7 +17,7 @@
     <hr class="div-row">
     <div *ngFor="let detail of player.details" class="card card-detail">
       <div class="card-body">
-        Rodada {{ detail.round }} / <b> {{ detail.points }} Pontos</b>
+        Rodada {{ detail.round }} / <b> {{ detail.points  | number : '1.2-2' }} Pontos</b>
      </div>
     </div>
   </td>
