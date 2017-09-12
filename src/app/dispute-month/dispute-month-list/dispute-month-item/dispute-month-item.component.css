@@ -5,62 +5,96 @@
   border-radius: 30px;
   min-width: 245px;
 }
-.table td, .table th {
-  height: 100px;
+td, th {
+  height: 85px;
 }
-.table td {
+td {
   vertical-align: middle;
 }
-.table th {
+th {
   border-top: none;
 }
-table tbody tr td.position strong{
+tr td.position strong{
   font-weight: bold;
   font-size: 18px;
   padding-left: 15px;
 }
-table tbody tr td.position{
+tr td.symbol {
+  padding-left: 45px;
+  width: 35px;
+}
+tr td.symbol img{
+  height: 40px;
+}
+tr td.position{
   width: 70px;
 }
-table tbody tr td.player::after {
+tr td.player::after {
 }
-table tbody tr td.points {
+tr td.points {
   font-size: 16px;
   font-weight: bold;
   color: #c3c3c3;
 }
-table tbody tr td.more {
+tr td.more {
   background-color: #f9f9f9;
   width: 80px;
 }
 td.more:hover a.collapse-link {
   color: #fafafa !important;
 }
-table tbody tr td.more:hover,
-table tbody tr td.more:active,
-table tbody tr td.more:focus {
-  cursor: pointer;
-  background-color: #00A38E;
-  width: 65px;
+tr td.more:hover i {
+  color: #fafafa;
 }
-table tbody tr td.detail {
-  padding: 50px 40px;
+
+tr td.more:hover ,
+tr td.more:active,
+tr td.more:focus {
+  color: #fafafa;
+  border-top: 2px solid #00A38E;
+  border-bottom: 2px solid #00A38E;
+  background-color: #00A38E;
+  cursor: pointer;
+  width: 65px;
+  z-index: 999999;
+}
+tr td.active {
+  cursor: pointer;
+  border-top: 2px solid #00A38E;
+  border-bottom: 2px solid #00A38E;
+  background-color: #00A38E !important;
+  width: 65px;
+  z-index: 999999;
+  color: #fafafa;
+}
+tr td.detail {
+  padding: 15px 40px 25px;
   background-color: #eee;
 }
+tr td.detail span {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #afafaf;
+}
+.symbol-detail img {
+  height: 80px;
+  filter: grayscale(100%);
+  opacity: 0.2;
+}
 /*first row color*/
-.table > tbody:nth-child(2) > tr:nth-child(1) {
-  background-color: #f6f6f6;
+.bg-1 {
+  background-color: #f2f2f2;
 }
 /*second and third row color*/
-.table > tbody:nth-child(3) > tr:nth-child(1),
-.table > tbody:nth-child(4) > tr:nth-child(1) {
+.bg-2, .bg-3 {
   background-color: #fafafa;
 }
 /*1st*/
-.table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > strong:nth-child(1) {
+.position-1 {
   color: transparent;
 }
-.table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > strong:nth-child(1)::before {
+.position-1::before {
+  margin-top: 20px;
   content:'';
   background: url(./~/assets/images/1st.png) no-repeat;
   height: 50px;
@@ -68,10 +102,11 @@ table tbody tr td.detail {
   float: left;
 }
 /*2nd*/
-.table > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(1) {
+.position-2 {
   color: transparent;
 }
-.table > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(1)::before {
+.position-2::before {
+  margin-top: 20px;
   content:'';
   background: url(./~/assets/images/2nd.png) no-repeat;
   height: 50px;
@@ -79,10 +114,11 @@ table tbody tr td.detail {
   float: left;
 }
 /*3rd*/
-.table > tbody:nth-child(4) > tr:nth-child(1) > td:nth-child(1) {
+.position-3 {
   color: transparent;
 }
-.table > tbody:nth-child(4) > tr:nth-child(1) > td:nth-child(1)::before {
+.position-3::before {
+  margin-top: 20px;
   content:'';
   background: url(./~/assets/images/3rd.png) no-repeat;
   height: 50px;
@@ -90,10 +126,10 @@ table tbody tr td.detail {
   float: left;
 }
 /*lantern*/
-.table > tbody:nth-child(32) > tr:nth-child(1) > td:nth-child(1) {
+.lil-flashlight {
   color: transparent;
 }
-.table > tbody:nth-child(32) > tr:nth-child(1) > td:nth-child(1)::before {
+.lil-flashlight::before {
   margin-left: 7px;
   content:'';
   background: url(./~/assets/images/lantern.png) no-repeat;
@@ -102,12 +138,10 @@ table tbody tr td.detail {
   float: left;
 }
 /*td points 1st/2nd/3rd*/
-.table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(3),
-.table > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(3),
-.table > tbody:nth-child(4) > tr:nth-child(1) > td:nth-child(3) {
-  color: #008271;
+.points-1, .points-2, .points-3 {
+  color: #008271 !important;
 }
 /*td points lantern*/
-.table > tbody:nth-child(32) > tr:nth-child(1) > td:nth-child(3) {
-  color: #f63b00;
+.points-lil-flashlight {
+  color: #f63b00 !important;
 }

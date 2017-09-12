@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
 import { Player } from '../../../common/player';
 
 @Component({
@@ -8,10 +8,26 @@ import { Player } from '../../../common/player';
 })
 export class DisputeMonthItemComponent implements OnInit {
 
+  showing: boolean;
   @Input() player: Player;
   @Input() i: number;
+  @Input() last: boolean;
 
-  constructor() { }
+  constructor() {
+    this.showing = false;
+  }
+
+  show(){
+    this.showing = !this.showing;
+    this.last =  false;
+  }
+
+  classSelector(i, tag){
+    if (i <= 3){
+      return `${tag}-${i}`;
+    }
+    return "";
+  }
 
   ngOnInit() {
   }

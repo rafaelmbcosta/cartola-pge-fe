@@ -28,12 +28,12 @@
           <thead>
             <tr>
               <th #th_doideira >Posição</th>
-              <th>Time</th>
+              <th colspan="2" class="symbol-player">Time</th>
               <th>Pontos</th>
               <th class="text-center">Mais</th>
             </tr>
           </thead>
-          <tbody *ngFor="let p of month.players; let i = index" [player]="p" [i] = "i"></tbody>
+          <tbody *ngFor="let p of month.players; let i = index" [player]="p" [i] = "i" [last]="i+1 == month.players.length "></tbody>
         </table>
       </div>
     </div>

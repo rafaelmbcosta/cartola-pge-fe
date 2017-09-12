@@ -1,21 +1,24 @@
-  <tr>
-    <td class="position"><strong>{{ i + 1 }}º</strong></td>
-    <td class="player">{{ player.name }} ( {{ player.team }} )</td>
-    <td class="points">{{ player.points | number : '1.2-2' }}</td>
-    <td class="more text-center"  >
-      <a class="collapse-link" href="#collapse" data-toggle="collapse" aria-expanded="false">
-        <i class="fa fa-2x fa-angle-down"></i>
-      </a>
-    </td>
-  </tr>
-  <tr id="collapse" class="collapse" #collapse>
-    <td  colspan="4" class="text-center detail">
-      <div>
-        <div *ngFor="let detail of player.details" class="card card-detail">
-          <div class="card-body">
-           Rodada {{ detail.round }} / <b> {{ detail.points }} Pontos</b>
-         </div>
-        </div>
-      </div>
-    </td>
-  </tr>
+<tr [ngClass]="classSelector(i+1, 'bg')">
+  <td class="position" [ngClass]="[classSelector(i+1, 'position'), last ? 'lil-flashlight' : '']"><strong>{{ i + 1 }}º</strong></td>
+  <td class="symbol"><img src="{{ player.team_symbol}}" alt="?"></td>
+  <td class="player">{{ player.name }} ( {{ player.team }} )</td>
+  <td class="points" [ngClass]="[classSelector(i+1, 'points'), last ? 'points-lil-flashlight' : '']">{{ player.points | number : '1.2-2' }}</td>
+  <td class="more text-center"  (click)="show()" [ngClass]="[showing ? 'active' : '']">
+    <i [ngClass]="[showing ? 'fa fa-2x fa-angle-up' : 'fa fa-2x fa-angle-down']"></i>
+  </td>
+</tr>
+<tr class="collapse" [ngClass]="{'show' : showing}">
+  <td  colspan="5" class="text-center detail">
+    <div class="symbol-detail">
+      <img src="{{ player.team_symbol}}" alt="?">
+    </div>
+    <hr class="div-row">
+    <span>{{ player.team }}</span>
+    <hr class="div-row">
+    <div *ngFor="let detail of player.details" class="card card-detail">
+      <div class="card-body">
+        Rodada {{ detail.round }} / <b> {{ detail.points }} Pontos</b>
+     </div>
+    </div>
+  </td>
+</tr>
