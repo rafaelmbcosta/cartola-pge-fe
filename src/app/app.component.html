@@ -1,9 +1,13 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg navbar-dark" style="background-color: #008271;">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Liga Cartola PGE</a>
+  <!-- root link -->
+  <a class="navbar-brand" routerLink="/app-dispute-month-list" href="#">
+    <img src="/assets/images/logo.png" alt="Cartola PGE">
+    <strong>CARTOLA PGE</strong>
+  </a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -31,7 +35,6 @@
     </ul>
   </div>
 </nav>
-
 <div class="container container-main">
   <router-outlet></router-outlet>
 </div>

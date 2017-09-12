@@ -1,0 +1,21 @@
+  <tr>
+    <td class="position"><strong>{{ i + 1 }}º</strong></td>
+    <td class="player">{{ player.name }} ( {{ player.team }} )</td>
+    <td class="points">{{ player.points | number : '1.2-2' }}</td>
+    <td class="more text-center"  >
+      <a class="collapse-link" href="#collapse" data-toggle="collapse" aria-expanded="false">
+        <i class="fa fa-2x fa-angle-down"></i>
+      </a>
+    </td>
+  </tr>
+  <tr id="collapse" class="collapse" #collapse>
+    <td  colspan="4" class="text-center detail">
+      <div>
+        <div *ngFor="let detail of player.details" class="card card-detail">
+          <div class="card-body">
+           Rodada {{ detail.round }} / <b> {{ detail.points }} Pontos</b>
+         </div>
+        </div>
+      </div>
+    </td>
+  </tr>

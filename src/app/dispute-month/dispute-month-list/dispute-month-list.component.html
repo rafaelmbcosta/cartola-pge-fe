@@ -1,28 +1,42 @@
-<div class="row">
-  <div *ngFor="let month of months" class="col-md-6">
-    <h3 class="text-center">{{ month.name }}</h3>
-    <div class="card" *ngFor="let player of month.players; let i = index">
-      <div class="card-block">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-9"><div class="position pull-left">{{ i + 1 }}</div><div class="text-center">{{ player.name }} ( {{ player.team }} )</div></div>
-              <div class="col-md-2 text-center">{{ player.points | number : '1.2-2' }}</div>
-              <div class="col-md-1 text-center"><a href="#collapse{{month.id}}{{i+1}}" data-toggle="collapse" aria-expanded="false"><i class="fa fa-angle-down text-center"></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="collapse{{month.id}}{{i+1}}" class="collapse card-footer">
-        <div class="row">
-          <div *ngFor="let detail of player.details" class="card col-md-4">
-            <div class="card-block text-center">
-              <div class="card-text">Rodada {{ detail.round }}</div>
-              <div class="card-text"><b> {{ detail.points }}</b></div>
-            </div>
-          </div>
-        </div>
+<hr class="div-row">
+<section>
+  <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" *ngFor="let month of months">
+      <a
+        (click)="setActive(month.id)"
+        [ngClass]="{'active' : month.id === months[0].id}"
+        class="nav-link"
+        [id]="label(month.id)"
+        data-toggle="pill"
+        href="#pills_{{month.id}}"
+        role="tab"
+        [attr.aria-controls]="tag(month.id)"
+        [attr.aria-expanded]="false">{{month.name}}
+      </a>
+    </li>
+  </ul>
+
+  <div class="tab-content" *ngFor="let month of months">
+    <div
+      [ngClass]="{'active show' : month.id == months[0].id}"
+      class="tab-pane fade"
+      [id]="tag(month.id)"
+      role="tabpanel"
+      [attr.aria-labelledby]="label(month.id)">
+      <div *ngIf="isActive(month.id, months)">
+        <table class="table table-responsive">
+          <thead>
+            <tr>
+              <th #th_doideira >Posição</th>
+              <th>Time</th>
+              <th>Pontos</th>
+              <th class="text-center">Mais</th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let p of month.players; let i = index" [player]="p" [i] = "i"></tbody>
+        </table>
       </div>
     </div>
   </div>
-</div>
+
+</section>
