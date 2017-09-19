@@ -1,8 +1,10 @@
 //Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
+// For mocking purposes
+import {MockBackend} from "@angular/http/testing";
+import {BaseRequestOptions} from "@angular/http";
 //Components
 import { AppComponent } from './app.component';
 import { PartialListComponent } from './partial/partial-list/partial-list.component';
@@ -18,6 +20,11 @@ import { SeasonScoreListComponent } from './season-score/season-score-list/seaso
 import { RulesComponent } from './rules/rules.component';
 import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
 import { DisputeMonthItemComponent } from './dispute-month/dispute-month-list/dispute-month-item/dispute-month-item.component';
+
+export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
+  return new Http(backend, options);
+}
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,12 +41,20 @@ import { DisputeMonthItemComponent } from './dispute-month/dispute-month-list/di
   imports: [
     BrowserModule,
     HttpModule,
-    NgbModule.forRoot(),
     RouterModule.forRoot(routes, {
       useHash: true
-    })
+    }),
   ],
-  providers: [ PartialService ],
+  providers: [
+    PartialService,
+    MockBackend,
+    BaseRequestOptions,
+    {
+        provide: Http,
+        deps: [MockBackend, BaseRequestOptions],
+        useFactory: HttpFactory
+    }
+  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
