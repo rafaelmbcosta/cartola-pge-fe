@@ -32,7 +32,7 @@ export class DisputeMonthListComponent implements OnInit {
   }
 
   constructor(
-    private disputeMonthService: MockDisputeMonthsService,
+    private disputeMonthService: DisputeMonthService,
     private router: Router,
   ) { }
 

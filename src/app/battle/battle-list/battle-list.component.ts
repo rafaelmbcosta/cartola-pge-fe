@@ -17,7 +17,7 @@ export class BattleListComponent implements OnInit {
   errorMessage: string;
 
   constructor(
-    private battlesService: MockBattleService,
+    private battlesService: BattlesService,
     private router: Router
   ) { }
 

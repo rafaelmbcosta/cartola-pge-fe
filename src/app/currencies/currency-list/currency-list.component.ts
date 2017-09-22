@@ -15,7 +15,7 @@ export class CurrencyListComponent implements OnInit {
   errorMessage: string;
 
   constructor(
-    private currencyService: MockCurrencyService
+    private currencyService: CurrencyService
   ) { }
 
   ngOnInit() {
