@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { PartialListComponent } from './partial/partial-list/partial-list.component';
 //Everything else
 import { Http, HttpModule, RequestOptions } from '@angular/http';
+// Services
+import { DisputeMonthService } from './dispute-month/dispute-month.service';
 import { PartialService } from './partial/partial.service';
 import { routes } from './app.routes';
 import { PartialItemComponent } from './partial/partial-item/partial-item.component';
@@ -49,13 +51,7 @@ export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
   ],
   providers: [
     PartialService,
-    MockBackend,
-    BaseRequestOptions,
-    {
-        provide: Http,
-        deps: [MockBackend, BaseRequestOptions],
-        useFactory: HttpFactory
-    }
+    DisputeMonthService,
   ],
   bootstrap: [ AppComponent ]
 })

@@ -34,11 +34,6 @@ describe('LeagueListComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('detailBackground(points) should return success or danger', () => {
-    expect(component.detailBackground(1)).toBeUndefined();
-    // expect(component.detailBackground())
-  });
-
   it('should return an Observable<Leagues>', inject([LeagueService, XHRBackend], ( leagueService, mockBackend) => {
     mockBackend.connections.subscribe((connection) => {
       connection.mockRespond(new Response(new ResponseOptions({
