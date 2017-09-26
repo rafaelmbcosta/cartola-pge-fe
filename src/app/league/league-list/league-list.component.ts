@@ -11,9 +11,23 @@ import { Observable } from 'rxjs/Rx';
   providers: [ LeagueService ]
 })
 export class LeagueListComponent implements OnInit {
-
   leagues: League[];
   errorMessage: string;
+  active: number;
+
+  setActive(id){
+    this.active = id;
+  }
+
+  isActive(id){
+    if (id == this.active){
+      return true;
+    }
+    if (this.active == null){
+      this.active = id
+      return true;
+    }
+  }
 
   constructor(
     private leagueService: LeagueService,
@@ -25,9 +39,12 @@ export class LeagueListComponent implements OnInit {
     timer.subscribe(() => this.getLeagues());
   }
 
-  detailBackground(points){
-    if (points == 3){ return "alert-success"; }
-    if (points == 0){ return "alert-danger"; }
+  tag(id){
+    return "pills_"+id;
+  }
+
+  label(id){
+    return "tab_"+id
   }
 
   getLeagues(){

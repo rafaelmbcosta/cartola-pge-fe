@@ -1,0 +1,55 @@
+<tr [ngClass]="classSelector(i+1, 'bg')">
+  <td class="position" [ngClass]="[classSelector(i+1, 'position'), last ? 'lil-flashlight' : '']"><strong>{{ i + 1 }}º</strong></td>
+  <td class="symbol"><img src="{{ leaguePlayer.team_symbol}}" alt="?"></td>
+  <td class="player">{{ leaguePlayer.name }} <span class="team_name">( {{ leaguePlayer.team }} )</span></td>
+  <td class="points text-center" [ngClass]="[classSelector(i+1, 'points'), last ? 'points-lil-flashlight' : '']">{{ leaguePlayer.points }}</td>
+  <td class="points text-center" [ngClass]="[classSelector(i+1, 'points'), last ? 'points-lil-flashlight' : '']">{{ leaguePlayer.diff_points }}</td>
+  <td class="more text-center"  (click)="show()" [ngClass]="[showing ? 'active' : '']">
+    <i [ngClass]="[showing ? 'fa fa-2x fa-angle-up' : 'fa fa-2x fa-angle-down']"></i>
+  </td>
+</tr>
+
+<tr class="collapse" [ngClass]="{'show' : showing}">
+  <td  colspan="6" class="text-center detail">
+    <div class="row">
+      <div *ngFor="let detail of leaguePlayer.details" class="fx-wrap">
+        <div class="card">
+          <div class="front">
+            <ng-template [ngIf]="detail.points == 3">
+              <div class="image">
+                <img src="assets/images/img-victory.png" alt="Vitória">
+                <p class="heading">vitória</p>
+              </div>
+            </ng-template>
+            <ng-template [ngIf]="detail.points == 0">
+              <div class="image">
+                <img src="assets/images/img-lose.png" alt="Derrota">
+                <p class="heading">derrota</p>
+              </div>
+            </ng-template>
+            <ng-template [ngIf]="detail.points == 1">
+              <div class="image">
+                <img src="assets/images/img-draw.png" alt="Empate">
+                <p class="heading draw-label">empate</p>
+              </div>
+            </ng-template>
+            <div class="text">
+              <div class="label-rounds">rodada <strong>{{ detail.round }}</strong></div>
+              <div class="label-points" [ngClass]="[detail.points == 3 ? 'victory' : detail.points == 1 ? 'draw' : 'lose' ]">
+                <div *ngIf="detail.points == 1;else not_draw">
+                  {{ detail.points }}  Ponto
+                </div>
+                <ng-template #not_draw>
+                  {{ detail.points }} Pontos
+                </ng-template>
+                <span *ngIf="detail.points == 3"> - ({{ detail.diff_points | number : '1.2-2' }}) </span>
+              </div>
+              <div class="label-vs"><strong>vs</strong></div>
+              <div class="label-team">{{ detail.opponent }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </td>
+</tr>
