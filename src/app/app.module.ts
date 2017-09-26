@@ -20,6 +20,7 @@ import { SeasonScoreListComponent } from './season-score/season-score-list/seaso
 import { RulesComponent } from './rules/rules.component';
 import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
 import { DisputeMonthItemComponent } from './dispute-month/dispute-month-list/dispute-month-item/dispute-month-item.component';
+import { LeagueItemComponent } from './league/league-list/league-item/league-item.component';
 
 export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
   return new Http(backend, options);
@@ -36,7 +37,8 @@ export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
     SeasonScoreListComponent,
     RulesComponent,
     CurrencyListComponent,
-    DisputeMonthItemComponent
+    DisputeMonthItemComponent,
+    LeagueItemComponent
   ],
   imports: [
     BrowserModule,
