@@ -2,14 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { DisputeMonthService } from '../dispute-month.service';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs/Rx';
-import { DisputeMonth } from '../dispute-month'
+import { MockDisputeMonthsService } from '../../mock-backend/mock-dispute-months.service';
+import { DisputeMonth } from '../dispute-month';
 
 @Component({
   selector: 'app-dispute-month-list',
   templateUrl: './dispute-month-list.component.html',
   styleUrls: ['./dispute-month-list.component.css'],
-  providers: [ DisputeMonthService]
+  providers: [ DisputeMonthService, MockDisputeMonthsService ]
 })
+
 export class DisputeMonthListComponent implements OnInit {
   months: DisputeMonth[];
   errorMessage: string;

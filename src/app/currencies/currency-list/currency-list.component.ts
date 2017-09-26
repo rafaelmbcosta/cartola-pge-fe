@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { CurrencyService } from '../currency.service';
 import { Currency } from '../currency';
+import { MockCurrencyService } from '../../mock-backend/mock-currency.service';
 import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'app-currency-list',
   templateUrl: './currency-list.component.html',
   styleUrls: ['./currency-list.component.css'],
-  providers: [ CurrencyService ]
+  providers: [ CurrencyService, MockCurrencyService ]
 })
 export class CurrencyListComponent implements OnInit {
   currencies: Currency[];
@@ -24,10 +25,10 @@ export class CurrencyListComponent implements OnInit {
 
   getCurrencies(){
     this.currencyService.getCurrencies()
-        .subscribe(
-          currencies => this.currencies = currencies,
-          error => this.errorMessage = <any>error
-        );
+      .subscribe(
+        currencies => this.currencies = currencies,
+        error => this.errorMessage = <any>error
+      );
   }
 
   detailBackground(value){
@@ -39,6 +40,7 @@ export class CurrencyListComponent implements OnInit {
     if (diff > 0){ return "text-success"; }
     if (diff < 0){ return "text-danger"; }
   }
+
   positiveSign(diff){
     if (diff > 0) {
       return "+";

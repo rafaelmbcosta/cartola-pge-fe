@@ -3,12 +3,13 @@ import { Battles } from '../battles';
 import { BattlesService } from '../battles.service';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs/Rx';
+import { MockBattleService } from "../../mock-backend/mock-battle.service";
 
 @Component({
   selector: 'app-battle-list',
   templateUrl: './battle-list.component.html',
   styleUrls: ['./battle-list.component.css'],
-  providers: [BattlesService]
+  providers: [ BattlesService, MockBattleService ]
 })
 export class BattleListComponent implements OnInit {
 
@@ -27,10 +28,10 @@ export class BattleListComponent implements OnInit {
 
   getBattles(){
     this.battlesService.getBattles()
-        .subscribe(
-          battles => this.battles = battles,
-          error => this.errorMessage = <any>error
-        );
+      .subscribe(
+        battles => this.battles = battles,
+        error => this.errorMessage = <any>error
+      );
   }
 
 }
