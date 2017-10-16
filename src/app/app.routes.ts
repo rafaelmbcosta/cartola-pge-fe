@@ -8,10 +8,12 @@ import { LeagueListComponent } from './league/league-list/league-list.component'
 import { BattleListComponent } from './battle/battle-list/battle-list.component';
 import { SeasonScoreListComponent} from './season-score/season-score-list/season-score-list.component';
 import { RulesComponent } from './rules/rules.component';
+import { MainComponent } from './award/main/main.component';
 import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
 // Define which component should be loaded based on the current URL
 export const routes: Routes = [
   { path: '', component: DisputeMonthListComponent },
+  { path: 'app-award', component: MainComponent },
   { path: 'app-partial-list', component: PartialListComponent },
   { path: 'app-partial-item/:id', component: PartialItemComponent },
   { path: 'app-dispute-month-list', component: DisputeMonthListComponent },

@@ -1,0 +1,7 @@
+<div *ngFor="let winner of winners">
+  <p> #{{winner.position}} -  {{ winner.team_name }} / $ {{ winner.prize | number : '1.2-2'}} </p>
+</div>
+
+<div *ngIf="!winners">
+  <p> ? </p>
+</div>

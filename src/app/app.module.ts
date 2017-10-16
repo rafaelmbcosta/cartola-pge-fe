@@ -23,6 +23,10 @@ import { RulesComponent } from './rules/rules.component';
 import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
 import { DisputeMonthItemComponent } from './dispute-month/dispute-month-list/dispute-month-item/dispute-month-item.component';
 import { LeagueItemComponent } from './league/league-list/league-item/league-item.component';
+import { MainComponent } from './award/main/main.component';
+import { ChampionshipComponent } from './award/main/championship/championship.component';
+import { MonthlyComponent } from './award/main/monthly/monthly.component';
+import { WinnerItemComponent } from './award/main/championship/winner-item/winner-item.component';
 
 export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
   return new Http(backend, options);
@@ -40,7 +44,11 @@ export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
     RulesComponent,
     CurrencyListComponent,
     DisputeMonthItemComponent,
-    LeagueItemComponent
+    LeagueItemComponent,
+    MainComponent,
+    ChampionshipComponent,
+    MonthlyComponent,
+    WinnerItemComponent
   ],
   imports: [
     BrowserModule,
