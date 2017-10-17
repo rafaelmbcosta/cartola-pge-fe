@@ -27,6 +27,8 @@ import { MainComponent } from './award/main/main.component';
 import { ChampionshipComponent } from './award/main/championship/championship.component';
 import { MonthlyComponent } from './award/main/monthly/monthly.component';
 import { WinnerItemComponent } from './award/main/championship/winner-item/winner-item.component';
+import { MonthWinnerItemComponent } from './award/main/monthly/month-winner-item/month-winner-item.component';
+import { AwardsComponent } from './award/main/monthly/awards/awards.component';
 
 export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
   return new Http(backend, options);
@@ -48,7 +50,9 @@ export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
     MainComponent,
     ChampionshipComponent,
     MonthlyComponent,
-    WinnerItemComponent
+    WinnerItemComponent,
+    AwardsComponent,
+    MonthWinnerItemComponent
   ],
   imports: [
     BrowserModule,

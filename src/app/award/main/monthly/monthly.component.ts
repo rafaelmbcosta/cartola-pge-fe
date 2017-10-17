@@ -15,15 +15,38 @@ import { MockAwardService } from '../../../mock-backend/mock-award.service';
 export class MonthlyComponent implements OnInit {
   months: Month[];
   errorMessage: string;
+  active: number;
 
   constructor(
-    private awardService: MockAwardService,
+    private awardService: AwardService,
     private router: Router,
   ) { }
 
   ngOnInit() {
     let timer = Observable.timer(0, 5*  60*1000)
     timer.subscribe(() => this.getMonths());
+  }
+
+  isActive(id){
+    if (id == this.active){
+      return true;
+    }
+    if (this.active == null){
+      this.active = id
+      return true;
+    }
+  }
+
+  setActive(id){
+    this.active = id;
+  }
+
+  tag(id){
+    return "pills_"+id;
+  }
+
+  label(id){
+    return "tab_"+id
   }
 
   getMonths(){
