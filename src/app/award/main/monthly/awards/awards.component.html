@@ -1,0 +1,10 @@
+<div *ngFor="let award of awards" class="card">
+  <div class="row">
+    <div class="col-md-4">
+      {{ formatType(award.type) }}
+    </div>
+    <div class="col-md-8">
+      <app-month-winner-item *ngFor="let winner of award.winners" [winner]="winner"></app-month-winner-item>
+    </div>
+  </div>
+</div>
