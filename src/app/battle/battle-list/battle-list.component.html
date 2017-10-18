@@ -6,7 +6,8 @@
         <div class="text-center col-md-10 battle-round">
           <div class="row justify-content-center battle-row">
             <div class="col-md-1 team-symbol">
-              <img src="{{ clash.first_team_symbol }}" class="symbol" alt="?"/>
+              <img src="{{ clash.first_team_symbol }}" *ngIf="clash.first_team_symbol != ''" class="symbol" alt="?"/>
+              <img src="/assets/images/ghost.png" *ngIf="clash.first_team_symbol == ''" class="symbol" alt="?"/>
             </div>
             <div class="col-md-4  text-left  team-name">
               {{ clash.first_name}}
@@ -16,7 +17,8 @@
               <span>{{ clash.second_name }}</span>
             </div>
             <div class="col-md-1 team-symbol">
-              <img src="{{ clash.second_team_symbol }}" class="symbol" alt="?"/>
+              <img src="{{ clash.second_team_symbol }}" *ngIf="clash.second_team_symbol != ''" class="symbol" alt="?"/>
+              <img src="/assets/images/ghost.png" *ngIf="clash.second_team_symbol == ''" class="symbol" alt="?"/>
             </div>
           </div>
         </div>
