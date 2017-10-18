@@ -1,0 +1,42 @@
+.battle{
+  margin-top: 20px;
+}
+.battle-round{
+  margin: 0px auto 1px auto;
+}
+
+.battle-row {
+  margin: 0 0 2px 0;
+}
+.round-title{
+  background-color: #edaa06;
+  width: 25%;
+  padding: 15px;
+  margin: 0px auto;
+  border-radius: 4px 4px 0px 0px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 15px;
+}
+.text-vs{
+  background-color: #008271;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 18px;
+  padding: 26px 10px;
+}
+.team-name{
+  padding: 26px 10px;
+  text-transform: capitalize;
+  color: #2d2d2d;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.team-symbol{
+  padding: 22px 10px;
+  background-color: #dedede;
+}
+.symbol{
+  height: 35px;
+}
