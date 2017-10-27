@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { SeasonScoreService } from '../season-score.service';
 import { SeasonScore } from '../season-score';
 import { Observable } from 'rxjs/Rx';
+import { MockSeasonScoreService } from '../../mock-backend/mock-season-score.service';
 
 @Component({
   selector: 'app-season-score-list',
   templateUrl: './season-score-list.component.html',
   styleUrls: ['./season-score-list.component.css'],
-  providers: [ SeasonScoreService ]
+  providers: [ SeasonScoreService, MockSeasonScoreService ]
 })
 export class SeasonScoreListComponent implements OnInit {
   seasons: SeasonScore[];
@@ -28,6 +29,13 @@ export class SeasonScoreListComponent implements OnInit {
           seasons => this.seasons = seasons,
           error => this.errorMessage = <any>error
         );
+  }
+
+  classSelector(i, tag){
+    if (i <= 3){
+      return `${tag}-${i}`;
+    }
+    return "";
   }
 
 }

@@ -1,24 +1,25 @@
 <div class="row">
   <div *ngFor="let season of seasons" class="col-md-4 col-sm-6 col-12">
     <h3 class="text-center">{{ season.title }}</h3>
-    <div class="card" *ngFor="let score of season.scores; let i = index">
-      <div class="card-block">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-12">
-            <div class="row">
-              <div class="col-md-1 col-sm-12 col-12 position text-center"> {{ i+1}}</div>
-              <div class="col-md-6 col-sm-12 col-12 text-center">
-                <div class="col-md-12">
-                  {{ score.player_name }}
-                </div>
-                <div class="col-md-12">
-                  {{ score.team_name }}
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-12 col-12 text-center position">{{ score.season_score | number : '1.2-2' }}</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <table class="table">
+      <thead>
+        <th>Posição</th>
+        <th></th>
+        <th>Jogador</th>
+        <th>Pontos</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let score of season.scores; let i = index"
+            [ngClass]="classSelector(i+1, 'bg')">
+          <td class="position"
+              [ngClass]="[classSelector(i+1, 'position'), last ? 'lil-flashlight' : '']">
+            <strong>{{ i+1}}º</strong>
+          </td>
+          <td class="symbol-player"><img src="{{ score.team_symbol }}" alt="?"/></td>
+          <td>{{ score.player_name }}<br/>{{ score.team_name }}</td>
+          <td class="points" [ngClass]="[classSelector(i+1, 'points'), last ? 'points-lil-flashlight' : '']">{{ score.season_score | number : '1.2-2' }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
