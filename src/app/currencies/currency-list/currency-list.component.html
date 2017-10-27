@@ -1,36 +1,43 @@
-<div class="row">
-  <div *ngFor="let currency of currencies" class="col-md-6 col-sm-12 col-12">
-    <h3 class="text-center">{{ currency.name }}</h3>
-    <div class="card" *ngFor="let team of currency.teams; let i = index">
-      <div class="card-block">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-12">
-            <div class="row">
-              <div class="col-md-1 col-sm-1 col-1 text-center"><b> {{ i+1 }}</b></div>
-              <div class="col-md-6 col-sm-6 col-6 text-center">
-                  {{ team.name }} ( {{ team.player }} )
-              </div>
-              <div class="col-md-3 col-sm-4 col-4 text-center">
-                {{ team.details[team.details.length - 1].value }}
-                ( <span [ngClass]="differenceColor(team.difference)"><b>
-                  {{ positiveSign(team.difference) }}{{ team.difference | number : '1.2-2' }}
-                </b> </span>)</div>
-              <div class="col-md-1 text-center"><a href="#collapse{{currency.id}}{{team.id}}{{i+1}}" data-toggle="collapse" aria-expanded="false"><i class="fa fa-angle-down text-center"></i></a></div>
-          </div>
-        </div>
-      </div>
-      <div id="collapse{{currency.id}}{{team.id}}{{i+1}}" class="collapse card-footer">
-        <div class="row">
-          <div *ngFor="let detail of team.details" class="card col-md-4" [ngClass]="detailBackground(detail.difference)">
-            <div class="card-block text-center">
-              <div class="card-text"><b>Rodada {{ detail.round }}</b></div>
-              <div class="card-text">C$ {{ detail.value  | number : '1.2-2' }}</div>
-              <div class="card-text"><span class="text-name"><b>{{ positiveSign(detail.difference) }}{{ detail.difference  | number : '1.2-2' }}</b></span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<hr class="div-row">
+<section>
+  <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" *ngFor="let currency of currencies">
+      <a
+      (click)="setActive(currency.id)"
+      [ngClass]="{'active' : currency.id === currencies[0].id}"
+      class="nav-link"
+      [id]="label(currency.id)"
+      data-toggle="pill"
+      href="#pills_{{currency.id}}"
+      role="tab"
+      [attr.aria-controls]="tag(currency.id)"
+      [attr.aria-expanded]="false">{{currency.name}}
+      </a>
+    </li>
+  </ul>
 
+  <div class="tab-content" *ngFor="let currency of currencies">
+    <div
+    [ngClass]="{'active show' : currency.id == currencies[0].id}"
+    class="tab-pane fade"
+    [id]="tag(currency.id)"
+    role="tabpanel"
+    [attr.aria-labelledby]="label(currency.id)">
+
+      <div *ngIf="isActive(currency.id, currencies)">
+        <table class="table table-responsive">
+          <thead>
+            <tr>
+              <th>Posição</th>
+              <th colspan="2" class="symbol-player">Time</th>
+              <th>Cartoletas</th>
+              <th class="text-center">Mais</th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let t of currency.teams; let i = index" [team]="t" [i] = "i" [last]="i+1 == currency.teams.length "></tbody>
+        </table>
+      </div>
+
+    </div>
   </div>
-</div>
+</section>

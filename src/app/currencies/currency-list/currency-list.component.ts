@@ -13,6 +13,7 @@ import { Observable } from 'rxjs/Rx';
 export class CurrencyListComponent implements OnInit {
   currencies: Currency[];
   errorMessage: string;
+  active: number;
 
   constructor(
     private currencyService: CurrencyService
@@ -31,20 +32,25 @@ export class CurrencyListComponent implements OnInit {
       );
   }
 
-  detailBackground(value){
-    if (value > 0){ return "alert-success"; }
-    if (value < 0){ return "alert-danger"; }
+  tag(id){
+    return "pills_"+id;
   }
 
-  differenceColor(diff){
-    if (diff > 0){ return "text-success"; }
-    if (diff < 0){ return "text-danger"; }
+  label(id){
+    return "tab_"+id
   }
 
-  positiveSign(diff){
-    if (diff > 0) {
-      return "+";
+  setActive(id){
+    this.active = id;
+  }
+
+  isActive(id){
+    if (id == this.active){
+      return true;
+    }
+    if (this.active == null){
+      this.active = id
+      return true;
     }
   }
-
 }

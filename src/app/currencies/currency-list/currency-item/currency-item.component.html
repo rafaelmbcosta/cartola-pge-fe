@@ -1,0 +1,46 @@
+<tr [ngClass]="classSelector(i+1, 'bg')">
+  <td class="position" [ngClass]="[classSelector(i+1, 'position'), last ? 'lil-flashlight' : '']"><strong>{{ i + 1 }}º</strong></td>
+  <td class="symbol"><img src="{{ team.team_symbol}}" alt="?"></td>
+  <td class="player">{{ team.player }} <span class="team_name">( {{ team.name }} )</span></td>
+  <td class="points text-center">
+    {{ team.details[team.details.length - 1].value }}
+    ( <span [ngClass]="differenceColor(team.difference)"><b>
+      {{ positiveSign(team.difference) }}{{ team.difference | number : '1.2-2' }}
+    </b> </span>)
+  </td>
+  <td class="more text-center"  (click)="show()" [ngClass]="[showing ? 'active' : '']">
+    <i [ngClass]="[showing ? 'fa fa-2x fa-angle-up' : 'fa fa-2x fa-angle-down']"></i>
+  </td>
+</tr>
+
+<tr class="collapse" [ngClass]="{'show' : showing}">
+  <td  colspan="6" class="text-center detail">
+    <div class="row">
+      <div *ngFor="let detail of team.details" class="fx-wrap">
+        <div class="card">
+          <div class="front">
+            <ng-template [ngIf]="detail.difference >= 0">
+              <div class="image">
+                <img src="assets/images/img-draw.png" alt="Vitória">
+                <p class="heading points-3">Ganhou</p>
+              </div>
+            </ng-template>
+            <ng-template [ngIf]="detail.difference < 0">
+              <div class="image">
+                <img src="assets/images/img-lose.png" alt="Derrota">
+                <p class="heading">Perdeu</p>
+              </div>
+            </ng-template>
+            <div class="text">
+              <div class="label-rounds">rodada <strong>{{ detail.round }}</strong></div>
+              <div>
+                <div>{{ detail.value }} Cartoletas </div>
+                <span [ngClass]="[detail.difference >= 0 ? 'points-3' : 'points-lil-flashlight' ]">  ({{ detail.difference | number : '1.2-2' }}) </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </td>
+</tr>
