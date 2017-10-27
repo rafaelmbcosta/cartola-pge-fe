@@ -5,6 +5,7 @@ export class Team {
     public name?: string,
     public player?: string,
     public difference?: number,
+    public team_symbol?: string,
     public details?: Detail[]
   ){}
 }
