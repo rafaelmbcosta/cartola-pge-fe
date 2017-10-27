@@ -3,6 +3,7 @@ export class Score {
     public team_id?: number,
     public team_name?: string,
     public player_name?: string,
-    public season_score?: number
+    public season_score?: number,
+    public team_symbol?: string
   ){}
 }
