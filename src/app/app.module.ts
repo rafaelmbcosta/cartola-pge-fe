@@ -29,6 +29,7 @@ import { MonthlyComponent } from './award/main/monthly/monthly.component';
 import { WinnerItemComponent } from './award/main/championship/winner-item/winner-item.component';
 import { MonthWinnerItemComponent } from './award/main/monthly/month-winner-item/month-winner-item.component';
 import { AwardsComponent } from './award/main/monthly/awards/awards.component';
+import { CurrencyItemComponent } from './currencies/currency-list/currency-item/currency-item.component';
 
 export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
   return new Http(backend, options);
@@ -52,7 +53,8 @@ export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
     MonthlyComponent,
     WinnerItemComponent,
     AwardsComponent,
-    MonthWinnerItemComponent
+    MonthWinnerItemComponent,
+    CurrencyItemComponent
   ],
   imports: [
     BrowserModule,
