@@ -16,11 +16,9 @@ h3{
 .partial-details{
   cursor: pointer;
 }
-
 .partial-details:hover{
   background-color: #E2E2E2;
 }
-
 .team-name{
   text-transform: uppercase;
   font-weight: 700;
