@@ -21,7 +21,7 @@ export class PartialItemComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private http: Http,
-    private partialService: MockPartialsService,
+    private partialService: PartialService,
     public router: Router
   ) {}
 

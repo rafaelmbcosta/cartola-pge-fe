@@ -18,7 +18,7 @@ export class PartialListComponent implements OnInit {
   mode = "Observable";
   position = 1;
   constructor(
-    private partialService: MockPartialsService,
+    private partialService: PartialService,
     private router: Router
   ) {}
 
