@@ -1,21 +1,21 @@
-<h3> {{ partials[0].team_name}}<br/>({{ partials[0].player_name}}) </h3>
+<h3> {{ partials[0].team_name}} ({{ partials[0].player_name}}) </h3>
 
-<div *ngFor="let partial of partials; let i = index" class="card col-lg-8 offset-lg-2 col-md-12 col-12">
-  <div class="card-block col-md-12 col-sm-12 col-12">
-    <div class="row">
-      <div class="col-md-2 col-sm-2 col-2 text-center"><img src="{{partial.team_logo}}" alt="{{partial.team}}"/></div>
-      <div class="col-md-6 col-sm-6 col-6 text-center nickname">
-        <div class="col-md-12 col-sm-12 col-12">
-          {{partial.nickname}}
-        </div>
-        <div class="col-md-12 col-sm-12 col-12 position">
-          {{partial.position}}
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-4 col-4 text-center">
-        <div class="col-md-12 col-sm-12 col-12 text-center points"><b>{{partial.points}}</b></div>
-        <div class="col-md-12 col-sm-12 col-12 text-center scouts">{{partial.scouts}}</div>
-      </div>
-    </div>
+<div class="row justify-content-md-center">
+  <div class="col-md-8">
+    <table class="table table-responsive table-partial">
+      <thead>
+        <th colspan="2">Jogador</th>
+        <th class="text-center">Pontos</th>
+        <th>Detalhes</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let partial of partials; let i = index">
+          <td class="symbol pull-left"><img src="{{partial.team_logo}}" alt="{{partial.team}}"/></td>
+          <td>{{partial.nickname}} <span class="position">({{partial.position}})</span></td>
+          <td class="points-partial text-center"><b>{{partial.points}}</b></td>
+          <td class="scouts">{{partial.scouts}}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>

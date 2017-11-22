@@ -1,74 +1,15 @@
-@media(max-width: 750px){
   h3{
     text-align: center;
     margin-bottom: 15px;
-    font-size: 20px;
   }
   .nickname{
     font-size: 18px;
   }
-  .scouts{
-    font-size: 9px;
-  }
   .position{
-    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #a4a4a4;
   }
-  img{
-    margin-top: 5px;
-    width: 30px;
-    height: 30px;
-  }
-  .points{
-    font-size: 14px;
-  }
-}
-
-@media(min-width: 750px) and (max-width: 975px){
-  h3{
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 22px;
-  }
-  .nickname{
-    font-size: 22px;
-  }
-  .scouts{
-    font-size: 12px;
-  }
-  .position{
+  .points-partial{
     font-size: 16px;
   }
-  img{
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-  }
-  .points{
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-
-@media(min-width: 975px){
-  h3{
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 25px;
-  }
-  .nickname{
-    font-size: 24px;
-  }
-  .scouts{
-    font-size: 14px;
-  }
-  .position{
-    font-size: 16px;
-  }
-  img{
-    width: 50px;
-    height: 50px;
-  }
-  .points{
-    font-size: 16px;
-  }
-}

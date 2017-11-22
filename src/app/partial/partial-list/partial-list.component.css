@@ -2,86 +2,32 @@ h3{
   text-align: center;
   margin-bottom: 10px;
 }
-
-@media(max-width: 750px){
-  .score{
-    vertical-align: middle;
-    margin-top: 30px;
-    font-size: 12px;
-  }
-  .card{
-    cursor: pointer;
-    margin-bottom: 5px;
-  }
-
-  .position-text{
-    margin-top: 30px;
-    font-size: 13px;
-  }
-  img{
-    margin-top: 10px;
-    width: 50px;
-    height: 50px;
-  }
-  .text-name{
-    font-size: 11px;
-  }
-  .players{
-    font-size: 9px;
-  }
+.score{
+  font-weight: bold;
+  font-size: 18px;
 }
-
-@media(min-width: 750px) and (max-width: 975px){
-  .score{
-    vertical-align: middle;
-    margin-top: 25px;
-    font-size: 20px;
-  }
-  .card{
-    cursor: pointer;
-    margin-bottom: 5px;
-  }
-
-  .position-text{
-    margin-top: 20px;
-    font-size: 25px;
-  }
-  img{
-    margin-top: 10px;
-    width: 60px;
-    height: 60px;
-  }
-  .text-name{
-    font-size: 16px;
-  }
-  .players{
-    font-size: 13px;
-  }
+.card{
 }
-
-@media(min-width: 975px){
-  .score{
-    vertical-align: middle;
-    margin-top: 20px;
-    font-size: 30px;
-  }
-  .card{
-    cursor: pointer;
-    margin-bottom: 5px;
-  }
-
-  .position-text{
-    margin-top: 15px;
-    font-size: 36px;
-  }
-  img{
-    width: 70px;
-    height: 70px;
-  }
-  .text-name{
-    font-size: 20px;
-  }
-  .players{
-    font-size: 14px;
-  }
+.position-text{
+  font-weight: bold;
+  font-size: 18px;
+  width: 20px;
+}
+.partial-details{
+  cursor: pointer;
+}
+.partial-details:hover{
+  background-color: #E2E2E2;
+}
+.team-name{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #a4a4a4;
+}
+.players{
+  font-size: 14px;
+}
+.player{
+  font-size: 16px;
 }
