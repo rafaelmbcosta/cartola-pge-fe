@@ -12,7 +12,7 @@ import { MainComponent } from './award/main/main.component';
 import { CurrencyListComponent } from './currencies/currency-list/currency-list.component';
 // Define which component should be loaded based on the current URL
 export const routes: Routes = [
-  { path: '', component: DisputeMonthListComponent },
+  { path: '', component: MainComponent },
   { path: 'app-award', component: MainComponent },
   { path: 'app-partial-list', component: PartialListComponent },
   { path: 'app-partial-item/:id', component: PartialItemComponent },
