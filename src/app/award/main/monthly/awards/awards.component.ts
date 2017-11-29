@@ -23,4 +23,21 @@ export class AwardsComponent implements OnInit {
     return type;
   }
 
+  selectImage(type){
+    var image = "";
+    if (type.includes('golden')){
+      image = "clover.png"
+    }
+    if (type.includes('month')){
+      image = "month-badge.png"
+    }
+    if (type.includes('league')){
+      image = "league_trph.png"
+    }
+    if (type.includes('currency')){
+      image = "rich_cash.png"
+    }
+    return image;
+  }
+
 }

@@ -1,28 +1,30 @@
-<ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item" *ngFor="let month of months">
-    <a
-      (click)="setActive(month.id)"
-      [ngClass]="{'active' : month.id === months[0].id}"
-      class="nav-link"
-      [id]="label(month.id)"
-      data-toggle="pill"
-      href="#pills_{{month.id}}"
-      role="tab"
-      [attr.aria-controls]="tag(month.id)"
-      [attr.aria-expanded]="false">{{month.name}}
-    </a>
-  </li>
-</ul>
+<div class="monthly_wrapper">
+  <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" *ngFor="let month of months">
+      <a
+        (click)="setActive(month.id)"
+        [ngClass]="{'active' : month.id === months[0].id}"
+        class="nav-link"
+        [id]="label(month.id)"
+        data-toggle="pill"
+        href="#pills_{{month.id}}"
+        role="tab"
+        [attr.aria-controls]="tag(month.id)"
+        [attr.aria-expanded]="false">{{month.name}}
+      </a>
+    </li>
+  </ul>
 
-<div class="tab-content" *ngFor="let month of months">
-  <div
-    [ngClass]="{'active show' : month.id == months[0].id}"
-    class="tab-pane fade"
-    [id]="tag(month.id)"
-    role="tabpanel"
-    [attr.aria-labelledby]="label(month.id)">
-      <div *ngIf="isActive(month.id, months)">
-        <app-awards [awards]="month.awards"> </app-awards>
-      </div>
+  <div class="tab-content" *ngFor="let month of months">
+    <div
+      [ngClass]="{'active show' : month.id == months[0].id}"
+      class="tab-pane fade"
+      [id]="tag(month.id)"
+      role="tabpanel"
+      [attr.aria-labelledby]="label(month.id)">
+        <div *ngIf="isActive(month.id, months)">
+          <app-awards [awards]="month.awards"> </app-awards>
+        </div>
+    </div>
   </div>
 </div>
