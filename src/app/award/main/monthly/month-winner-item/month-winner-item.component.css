@@ -1,0 +1,16 @@
+
+
+.pos-container{
+  height: 15px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.text-pos-1, .text-pos-{
+  color: #F4B95C;
+}
+.text-pos-2{
+  color: #969696;
+}
+.text-pos-3{
+  color: #E89699;
+}

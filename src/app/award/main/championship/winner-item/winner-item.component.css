@@ -1,0 +1,27 @@
+.winner_box{
+  height: 30px;
+  margin-top: 1px;
+  font-weight: bold;
+  color: #888681;
+  padding-top: 6px;
+}
+
+.missing_winner{
+  background-color: #F3F3F3;
+}
+
+.pos_1{
+  background-color: #FED38C;
+}
+
+.pos_2{
+  background-color: #E6E6E6;
+}
+
+.pos_3{
+  background-color: #FEBC91;
+}
+
+.wrapper_winner{
+  margin-top: 5px;
+}

@@ -1,1 +1,3 @@
-  <p> {{winner.position}}  {{ winner.team_name }} / $ {{ winner.prize | number : '1.2-2'}} </p>
+<div class="pos-container text-center">
+  <span class="text-pos text-pos-{{winner.position}}">  {{ winner.team_name }} | C$ {{ winner.prize | number : '1.2-2'}}</span>
+</div>
