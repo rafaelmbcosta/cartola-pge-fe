@@ -1,7 +1,7 @@
 <div class="wrapper_winner">
   <div *ngFor="let winner of winners; let i = index" class="text-center">
     <div class="winner_box pos_{{i+1}}">
-      #{{winner.position}} - {{ winner.team_name }} |  R$ {{ winner.prize | number : '1.2-2'}}
+      {{ winner.team_name }} |  R$ {{ winner.prize | number : '1.2-2'}}
     </div>
   </div>
 
