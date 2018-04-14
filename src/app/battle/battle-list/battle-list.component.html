@@ -1,3 +1,5 @@
+<h2 *ngIf="battles.length == 0" class="text-center"> Aguardando fechamento da primeira rodada </h2>
+
 <div class="row">
   <div *ngFor="let battle of battles" class="col-md-12 battle">
     <div class="text-center round-title col-md-12">RODADA {{ battle.round }}</div>
