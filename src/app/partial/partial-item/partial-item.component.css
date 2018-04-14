@@ -13,3 +13,12 @@
   .points-partial{
     font-size: 16px;
   }
+.captain{
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFA500;
+}
+
+.negrito{
+  font-weight: bold;
+}
