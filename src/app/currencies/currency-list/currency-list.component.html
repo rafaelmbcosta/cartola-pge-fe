@@ -37,7 +37,7 @@
               <th class="text-center">Mais</th>
             </tr>
           </thead>
-          <tbody *ngFor="let t of currency.teams; let i = index" [team]="t" [i] = "i" [last]="i+1 == currency.teams.length "></tbody>
+          <tbody *ngFor="let t of currency.teams; let i = index" [team]="t" [i] = "i" [last]="i+1 == currency.teams.length" [total]="currency.teams.length"></tbody>
         </table>
       </div>
 

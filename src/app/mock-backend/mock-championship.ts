@@ -20,6 +20,7 @@ export const CHAMPIONSHIP: any = {
         }
     ],
     "second_turn": null,
-    "championship": null
+    "championship": null,
+    "active_now": 44
 
 };

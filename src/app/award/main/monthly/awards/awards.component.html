@@ -1,7 +1,7 @@
 <div *ngFor="let award of awards" class="card card-award">
   <div class="card-block">
     <div class="row">
-      <div class="col-md-3 text-center award-type-icon">
+      <div class="col-md-3 award-type-icon text-center">
         <img
           src="assets/images/{{selectImage(award.type)}}"
           alt="{{award.type}}"/>
@@ -10,7 +10,7 @@
       <app-month-winner-item
         *ngFor="let winner of award.winners"
         [winner]="winner"
-        class="col-md-3">
+        [ngClass]="(award.winners.length > 3) ? 'text-left col-md-2' : 'text-left col-md-3'">
       </app-month-winner-item>
     </div>
   </div>

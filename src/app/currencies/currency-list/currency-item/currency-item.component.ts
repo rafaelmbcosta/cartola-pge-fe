@@ -13,6 +13,7 @@ export class CurrencyItemComponent implements OnInit {
     @Input() team: Team;
     @Input() i: number;
     @Input() last: boolean;
+    @Input() total: number;
 
     constructor() {
       this.showing = false;
@@ -24,7 +25,11 @@ export class CurrencyItemComponent implements OnInit {
     }
 
     classSelector(i, tag){
-      if (i <= 3){
+      var awardRange = 1
+      if (this.total >= 35){
+        awardRange = 2
+      }
+      if (i <= awardRange ){
         return `${tag}-${i}`;
       }
       return "";

@@ -1,6 +1,6 @@
 <div class="row justify-content-center champions">
   <div class="col-md-4 text-center">
-    <img class="" src="assets/images/camp_podium.png" alt="Campeonato" class="title_image"/>
+    <img class="" src="assets/images/{{ prefix() }}_championship.png" alt="Campeonato" class="title_image"/>
     <app-winner-item [winners]="championship.championship">
     </app-winner-item>
   </div>
@@ -8,7 +8,7 @@
 
 <div class="row justify-content-center half-champions">
   <div class="col-md-4 text-center">
-    <img src="assets/images/1_podium.png" alt="Campeonato" class="title_image" />
+    <img src="assets/images/{{ prefix() }}_first_turn.png" alt="Primeiro Turno" class="title_image" />
     <app-winner-item [winners]="championship.first_turn">
     </app-winner-item>
   </div>
@@ -16,7 +16,7 @@
   <div class="col-md-1"></div>
 
   <div class="col-md-4 text-center">
-    <img src="assets/images/2_podium.png" alt="Campeonato" class="title_image"/>
+    <img src="assets/images/{{ prefix() }}_second_turn.png" alt="Segundo Turno" class="title_image"/>
     <app-winner-item [winners]="championship.second_turn">
     </app-winner-item>
   </div>

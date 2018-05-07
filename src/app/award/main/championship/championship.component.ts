@@ -34,4 +34,11 @@ export class ChampionshipComponent implements OnInit {
         );
   }
 
+  prefix(){
+    if (this.championship.active_now >= 35){
+      return "special";
+    }
+    return "normal";
+  }
+
 }

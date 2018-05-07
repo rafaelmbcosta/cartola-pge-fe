@@ -36,7 +36,7 @@
               <th class="text-center">Mais</th>
             </tr>
           </thead>
-          <tbody *ngFor="let p of league.players; let i = index" [leaguePlayer]="p" [i]="i" [last]="i+1 == league.players.length "></tbody>
+          <tbody *ngFor="let p of league.players; let i = index" [leaguePlayer]="p" [i]="i" [last]="i+1 == league.players.length" [total]="league.players.length"></tbody>
         </table>
       </div>
 

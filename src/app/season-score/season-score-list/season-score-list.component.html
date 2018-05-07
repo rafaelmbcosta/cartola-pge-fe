@@ -12,7 +12,7 @@
         <tr *ngFor="let score of season.scores; let i = index"
             [ngClass]="classSelector(i+1, 'bg')">
           <td class="position"
-              [ngClass]="[classSelector(i+1, 'position'), last ? 'lil-flashlight' : '']">
+              [ngClass]="[classSelector(i+1, 'position', season.scores.length), last ? 'lil-flashlight' : '']">
             <strong>{{ i+1}}º</strong>
           </td>
           <td class="symbol-player"><img src="{{ score.team_symbol }}" alt="?"/></td>
