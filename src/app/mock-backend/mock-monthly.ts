@@ -47,6 +47,12 @@ export const MONTHLY: any[] = [
                         "position": 3,
                         "prize": 30.0,
                         "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_59/escudo/14/35/48/003679541420170520143548"
+                    },
+                    {
+                        "team_name": "Ferrão",
+                        "position": 4,
+                        "prize": 15.0,
+                        "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_59/escudo/14/35/48/003679541420170520143548"
                     }
                 ]
             },

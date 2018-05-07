@@ -17,7 +17,7 @@ export class ChampionshipComponent implements OnInit {
   errorMessage: string;
 
   constructor(
-    private awardService: AwardService,
+    private awardService: MockAwardService,
     private router: Router,
   ) {}
 
@@ -32,6 +32,13 @@ export class ChampionshipComponent implements OnInit {
           championship => this.championship = championship,
           error => this.errorMessage = <any>error
         );
+  }
+
+  prefix(){
+    if (this.championship.active_now >= 35){
+      return "special";
+    }
+    return "normal";
   }
 
 }

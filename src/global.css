@@ -225,7 +225,7 @@ tr td.detail span {
   background-color: #f2f2f2;
 }
 /*second and third row color*/
-.bg-2, .bg-3 {
+.bg-2, .bg-3, .bg-4 {
   background-color: #fafafa;
 }
 /*1st*/
@@ -263,6 +263,19 @@ tr td.detail span {
   margin-bottom: -20px;
   content:'';
   background: url(./~/assets/images/3rd.png) no-repeat;
+  height: 50px;
+  width: 55px;
+  float: left;
+}
+
+.position-4 {
+  color: transparent;
+}
+.position-4::before {
+  margin-top: 8px;
+  margin-bottom: -20px;
+  content:'';
+  background: url(./~/assets/images/4th.png) no-repeat;
   height: 50px;
   width: 55px;
   float: left;

@@ -12,6 +12,7 @@ export class LeagueItemComponent implements OnInit {
   @Input() leaguePlayer: Player;
   @Input() i: number;
   @Input() last: boolean;
+  @Input() total: number;
 
   constructor() {
     this.showing = false;
@@ -23,7 +24,11 @@ export class LeagueItemComponent implements OnInit {
   }
 
   classSelector(i, tag){
-    if (i <= 3){
+    var awardRange = 3
+    if (this.total >= 35){
+      awardRange = 4
+    }
+    if (i <= awardRange ){
       return `${tag}-${i}`;
     }
     return "";

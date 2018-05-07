@@ -31,8 +31,13 @@ export class SeasonScoreListComponent implements OnInit {
         );
   }
 
-  classSelector(i, tag){
-    if (i <= 3){
+  classSelector(i, tag, total){
+    var awardRange = 3
+    if (total >= 35){
+      awardRange = 4
+    }
+
+    if (i <= awardRange ){
       return `${tag}-${i}`;
     }
     return "";
