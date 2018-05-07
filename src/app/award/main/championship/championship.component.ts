@@ -17,7 +17,7 @@ export class ChampionshipComponent implements OnInit {
   errorMessage: string;
 
   constructor(
-    private awardService: MockAwardService,
+    private awardService: AwardService,
     private router: Router,
   ) {}
 
