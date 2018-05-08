@@ -10,7 +10,8 @@
       <app-month-winner-item
         *ngFor="let winner of award.winners"
         [winner]="winner"
-        [ngClass]="(award.winners.length > 3) ? 'text-left col-md-2' : 'text-left col-md-3'">
+        class="text-left"
+        [ngClass]="(award.winners.length > 3) ? ' col-md-2 font-award' : 'col-md-3'">
       </app-month-winner-item>
     </div>
   </div>
