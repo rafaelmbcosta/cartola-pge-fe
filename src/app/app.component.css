@@ -1,1 +1,39 @@
 
+@media (max-width: 481px) {
+  .container-main{
+    padding-top: 80px;
+  }
+  #logo-header{
+    display: none;
+  }
+  li.nav-item{
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 481px) {
+  #menu-button{
+    display: none;
+  }
+  #logo-responsive{
+    display: none;
+  }
+  /*navbar config*/
+  .navbar {
+    padding: 0 !important;
+  }
+  .navbar-brand {
+    background-color: #00a38e;
+    padding: 1em 1.5rem;
+    display: block;
+    line-height: 30px;
+  }
+  /*body/container config*/
+  .container-main{
+    margin-top: 120px;
+    margin-bottom: 90px;
+  }
+  .container{
+    width: 100%;
+  }
+}
