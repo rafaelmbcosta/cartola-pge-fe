@@ -62,24 +62,6 @@ hr.div-row {
   background-image:
   linear-gradient(to right, #eee, #d6d6d6, #eee);
 }
-/*navbar config*/
-.navbar {
-  padding: 0 !important;
-}
-.navbar-brand {
-  background-color: #00a38e;
-  padding: 1em 1.5rem;
-  display: block;
-  line-height: 30px;
-}
-/*body/container config*/
-.container-main{
-  margin-top: 120px;
-  margin-bottom: 90px;
-}
-.container{
-  width: 100%;
-}
 
 /*loader config*/
 .loader {

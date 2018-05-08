@@ -1,39 +1,47 @@
+
 <!--The content below is only a placeholder and can be replaced.-->
 <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg navbar-dark" style="background-color: #008271;">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" routerLink="" href="#" id="logo-responsive">Cartola PGE </a>
+
+  <button class="navbar-toggler navbar-toggler-right"
+          type="button"
+          (click)="hiddenMenu = !hiddenMenu"
+          id="menu-button">
     <span class="navbar-toggler-icon"></span>
   </button>
   <!-- root link -->
-  <a class="navbar-brand" routerLink="" href="#">
+  <a class="navbar-brand" routerLink="" href="#" id="logo-header">
     <img src="/assets/images/logo.png" alt="Cartola PGE">
-    <strong>CARTOLA PGE</strong>
+    <strong>CARTOLA PGE </strong>
   </a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse"
+      [ngClass]="{ 'show' : !hiddenMenu }"
+      id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-award" href="#">Premiações</a>
+        <a class="nav-link" routerLink="/app-award" (click)="hiddenMenu = true" href="#">Premiações</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-dispute-month-list" href="#">Disputas Mensais</a>
+        <a class="nav-link" routerLink="/app-dispute-month-list" (click)="hiddenMenu = true" href="#">Disputas Mensais</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-league-list" href="#">Copa da Liga</a>
+        <a class="nav-link" routerLink="/app-league-list" (click)="hiddenMenu = true" href="#">Copa da Liga</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-season-score-list" href="#">Turnos/Campeonato</a>
+        <a class="nav-link" routerLink="/app-season-score-list" (click)="hiddenMenu = true" href="#">Turnos/Campeonato</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-battle-list" href="#">Confrontos</a>
+        <a class="nav-link" routerLink="/app-battle-list" (click)="hiddenMenu = true" href="#">Confrontos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-currency-list" href="#">Patrimônio</a>
+        <a class="nav-link" routerLink="/app-currency-list" (click)="hiddenMenu = true" href="#">Patrimônio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-partial-list" href="#">Parciais</a>
+        <a class="nav-link" routerLink="/app-partial-list" (click)="hiddenMenu = true" href="#">Parciais</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/app-rules" href="#">Regras</a>
+        <a class="nav-link" routerLink="/app-rules" (click)="hiddenMenu = true" href="#">Regras</a>
       </li>
     </ul>
   </div>
