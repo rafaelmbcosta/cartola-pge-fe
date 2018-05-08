@@ -4,10 +4,10 @@
 
 <table class="table table-responsive col-md-10">
   <thead>
-    <th>Posicao</th>
+    <th><span class="pos-header">Posicao</span><span class="pos-mobile">#</span></th>
     <th colspan="2" class="text-center">Jogador</th>
-    <th class="text-center">Jogadores</th>
-    <th class="text-center">Pontuação</th>
+    <th class="text-center"></th>
+    <th class="text-center">Pontos</th>
   </thead>
   <tbody>
     <tr *ngFor="let partial of partials; let i = index"
@@ -17,9 +17,9 @@
       <td class="position-text">{{ i+1 }}</td>
       <td class="symbol"><img src="{{ partial.team_symbol }}" alt="simbolo"/></td>
       <td>
-        <span class="player text-center text-{{ partial.battle_class}}">{{ partial.team_name }} ({{ partial.player_name }}) </span> <span class="team-name"> vs {{ partial.battle_opponent }} ({{ partial.diff_points | number : '1.2-2' }})</span>
+        <span class="player text-center text-{{ partial.battle_class }}">{{ partial.team_name }} <span class="player-name">({{ partial.player_name }})</span> </span> <span class="opponent-name"> vs {{ partial.battle_opponent }} ({{ partial.diff_points | number : '1.2-2' }})</span>
       </td>
-      <td class="players text-center">{{ partial.players }}/12 jogadores</td>
+      <td class="players text-center">{{ partial.players }}/12 <span class="players_remaining">jogadores</span></td>
       <td class="score text-center">{{ partial.partial_score | number : '1.2-2' }}</td>
     </tr>
   </tbody>

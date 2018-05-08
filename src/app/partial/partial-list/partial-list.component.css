@@ -1,33 +1,74 @@
+@media (max-width: 481px) {
+  table{
+    width: 100%;
+    font-size: 9px !important;
+    padding: 0px !important;
+  }
+  table td, table th {
+    padding: 3px !important;
+    text-align: center;
+  }
+  .player-text{
+    font-size: 10px;
+  }
+
+  .opponent-name{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    color: #a4a4a4;
+  }
+  .position-text{
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .pos-header, .players_remaining, .player-name{
+    display: none;
+  }
+  .score{
+    font-weight: bold;
+  }
+  .score, .players{
+    font-size: 11px;
+  }
+}
+@media (min-width: 481px) {
+
+  .score{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .card{
+  }
+  .position-text{
+    font-weight: bold;
+    font-size: 18px;
+    width: 20px;
+  }
+  .partial-details{
+    cursor: pointer;
+  }
+  .partial-details:hover{
+    background-color: #E2E2E2;
+  }
+  .opponent-name{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #a4a4a4;
+  }
+  .players{
+    font-size: 14px;
+  }
+  .player{
+    font-size: 16px;
+  }
+  .pos-mobile{
+    display: none;
+  }
+}
+
 h3{
   text-align: center;
   margin-bottom: 10px;
-}
-.score{
-  font-weight: bold;
-  font-size: 18px;
-}
-.card{
-}
-.position-text{
-  font-weight: bold;
-  font-size: 18px;
-  width: 20px;
-}
-.partial-details{
-  cursor: pointer;
-}
-.partial-details:hover{
-  background-color: #E2E2E2;
-}
-.team-name{
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  color: #a4a4a4;
-}
-.players{
-  font-size: 14px;
-}
-.player{
-  font-size: 16px;
 }
