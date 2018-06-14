@@ -1,995 +1,2975 @@
 export const CURRENCIES: any[] = [
-
     {
-        "name": "Abril/Maio",
-        "id": 7,
-        "teams": [
+        "name":"Junho/Julho",
+        "id":8,
+        "teams":[
             {
-                "name": "Vovô do Yan",
-                "player": "Marciano Araújo",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/fc/43/18/00ad839309-7037-49f9-a6e1-fbff4871b2fc20180322144318",
-                "difference": 86.08,
-                "details": [
+                "name":"djmss fc",
+                "player":"Daniel Mendes",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/01/40/51/003bc5bc37-a9f7-4c4c-a152-ed225a60d20120180410144051",
+                "difference":16.22,
+                "details":[
                     {
-                        "value": 149.11,
-                        "difference": 49.11,
-                        "round": 1
+                        "value":141.18,
+                        "difference":0.0600000000000003,
+                        "round":9
                     },
                     {
-                        "value": 174.96,
-                        "difference": 25.85,
-                        "round": 2
+                        "value":144.25,
+                        "difference":3.07,
+                        "round":10
                     },
                     {
-                        "value": 186.08,
-                        "difference": 11.12,
-                        "round": 3
+                        "value":147.73,
+                        "difference":3.48,
+                        "round":11
+                    },
+                    {
+                        "value":157.34,
+                        "difference":9.61,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Down Futball United",
-                "player": "Márcio Ayres",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/f6/28/00/008d179c97-48ca-48d2-b579-469a5c2ab7f620180323192800",
-                "difference": 81.5,
-                "details": [
+                "name":"Bessa CSC",
+                "player":"Victor Bessa",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/dc/33/02/00ce9bd458-5b83-48c7-a0c0-a4710fc141dc20180411103302",
+                "difference":13.91,
+                "details":[
                     {
-                        "value": 149.53,
-                        "difference": 49.53,
-                        "round": 1
+                        "value":151.96,
+                        "difference":4.89,
+                        "round":9
                     },
                     {
-                        "value": 174.21,
-                        "difference": 24.68,
-                        "round": 2
+                        "value":152.92,
+                        "difference":0.96,
+                        "round":10
                     },
                     {
-                        "value": 181.5,
-                        "difference": 7.29,
-                        "round": 3
+                        "value":156.41,
+                        "difference":3.49,
+                        "round":11
+                    },
+                    {
+                        "value":160.98,
+                        "difference":4.57,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Raimundões FC",
-                "player": "Danielson Filho",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/fb/40/17/0044d2aa58-33cc-4c54-a068-585cd48c18fb20180406094017",
-                "difference": 76.64,
-                "details": [
+                "name":"Palestra Cangaceiro",
+                "player":"Marcelo Faustino",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/19/09/39/0096e4f1f1-f2b9-4f08-b945-2ac1943bab1920180322150939",
+                "difference":13.850000000000001,
+                "details":[
                     {
-                        "value": 144.25,
-                        "difference": 44.25,
-                        "round": 1
+                        "value":176.87,
+                        "difference":6.99,
+                        "round":9
                     },
                     {
-                        "value": 164.63,
-                        "difference": 20.38,
-                        "round": 2
+                        "value":183.43,
+                        "difference":6.56,
+                        "round":10
                     },
                     {
-                        "value": 176.64,
-                        "difference": 12.01,
-                        "round": 3
+                        "value":184.44,
+                        "difference":1.01,
+                        "round":11
+                    },
+                    {
+                        "value":183.73,
+                        "difference":-0.71,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Valério Central F. C",
-                "player": "Bruno Dias",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/aa/54/56/00e01a2f6b-9906-4e70-8d91-ec6cc5bad9aa20180406175456",
-                "difference": 71.93,
-                "details": [
+                "name":"VBSantiago FC",
+                "player":"Victor Santiago",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/82/18/03/001e09f7b4-5047-495a-8634-8d3328be278220180326111803",
+                "difference":13.54,
+                "details":[
                     {
-                        "value": 136.03,
-                        "difference": 36.03,
-                        "round": 1
+                        "value":177.34,
+                        "difference":7.85,
+                        "round":9
                     },
                     {
-                        "value": 162.25,
-                        "difference": 26.22,
-                        "round": 2
+                        "value":174.33,
+                        "difference":-3.01,
+                        "round":10
                     },
                     {
-                        "value": 171.93,
-                        "difference": 9.68,
-                        "round": 3
+                        "value":177.66,
+                        "difference":3.33,
+                        "round":11
+                    },
+                    {
+                        "value":183.03,
+                        "difference":5.37,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Come mosca fc",
-                "player": "Matheus Batista",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/e6/35/18/00c0de3da7-5908-4d60-acff-4b380add5fe620180322133518",
-                "difference": 70.13,
-                "details": [
+                "name":"Camisa10daGavea",
+                "player":"Marcelo Almeida",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/cd/38/52/0088e74e4f-f38a-4256-8c47-0179c02643cd20180412183852",
+                "difference":11.059999999999999,
+                "details":[
                     {
-                        "value": 135.63,
-                        "difference": 35.63,
-                        "round": 1
+                        "value":130.64,
+                        "difference":6.27,
+                        "round":9
                     },
                     {
-                        "value": 157.46,
-                        "difference": 21.83,
-                        "round": 2
+                        "value":127.69,
+                        "difference":-2.95,
+                        "round":10
                     },
                     {
-                        "value": 170.13,
-                        "difference": 12.67,
-                        "round": 3
+                        "value":136.5,
+                        "difference":8.81,
+                        "round":11
+                    },
+                    {
+                        "value":135.43,
+                        "difference":-1.07,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Phode Chorarr FC",
-                "player": "Ronilson Costa",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_103/escudo/36/36/53/00f3f60de2-60ef-432d-9695-e924b034033620180326233653",
-                "difference": 68.32,
-                "details": [
+                "name":"vovo S.C",
+                "player":"Lucas Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/f6/17/23/00b142cb5a-fdfd-4976-875a-89e6a21cdef620180324211723",
+                "difference":10.89,
+                "details":[
                     {
-                        "value": 143.66,
-                        "difference": 43.66,
-                        "round": 1
+                        "value":160.37,
+                        "difference":2.05,
+                        "round":9
                     },
                     {
-                        "value": 164.4,
-                        "difference": 20.74,
-                        "round": 2
+                        "value":158.82,
+                        "difference":-1.55,
+                        "round":10
                     },
                     {
-                        "value": 168.32,
-                        "difference": 3.92,
-                        "round": 3
+                        "value":160.5,
+                        "difference":1.68,
+                        "round":11
+                    },
+                    {
+                        "value":169.21,
+                        "difference":8.71,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Victor Gomes Sporting Club",
-                "player": "Victor Gomes",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/63/43/03/00cc0f22de-56ce-4cd3-b0d5-a0d7e4717f6320180412174303",
-                "difference": 65.03999999999999,
-                "details": [
+                "name":"Ragnar Lothbrok 2018",
+                "player":"Paulo Cristiano",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/9e/48/55/00c8ee0c6a-37ab-40ea-8a28-9b8be9b8649e20180411094855",
+                "difference":10.379999999999999,
+                "details":[
                     {
-                        "value": 137.4,
-                        "difference": 37.4,
-                        "round": 1
+                        "value":139.79,
+                        "difference":5.72,
+                        "round":9
                     },
                     {
-                        "value": 162.72,
-                        "difference": 25.32,
-                        "round": 2
+                        "value":141.32,
+                        "difference":1.53,
+                        "round":10
                     },
                     {
-                        "value": 165.04,
-                        "difference": 2.32,
-                        "round": 3
+                        "value":140.41,
+                        "difference":-0.91,
+                        "round":11
+                    },
+                    {
+                        "value":144.45,
+                        "difference":4.04,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "PerdiCartola F.C",
-                "player": "Alberto Perdigão",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_111/escudo/15/20/00/000fde8b37-3a24-4acb-8e0c-73d41b9ef71520180414132000",
-                "difference": 63.32,
-                "details": [
+                "name":"Batista S.C",
+                "player":"Caio Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/ea/12/37/006d268f25-c0b7-4761-b3ff-8e3a9d8c0dea20180323201237",
+                "difference":9.79,
+                "details":[
                     {
-                        "value": 132.87,
-                        "difference": 32.87,
-                        "round": 1
+                        "value":179.64,
+                        "difference":3.9,
+                        "round":9
                     },
                     {
-                        "value": 150.33,
-                        "difference": 17.46,
-                        "round": 2
+                        "value":181.45,
+                        "difference":1.81,
+                        "round":10
                     },
                     {
-                        "value": 163.32,
-                        "difference": 12.99,
-                        "round": 3
+                        "value":185.25,
+                        "difference":3.8,
+                        "round":11
+                    },
+                    {
+                        "value":185.53,
+                        "difference":0.28,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Clube Artimanhã",
-                "player": "Karlos Emanuel",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/71/01/27/006e2380da-4e96-4336-a467-e43ce6f5d67120180411130127",
-                "difference": 59.33,
-                "details": [
+                "name":"Boa Viagem E. Clube",
+                "player":"José Carlos",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/40/32/34/00bf8f80da-4356-466e-a062-da07b4b1a34020180410103234",
+                "difference":8.84,
+                "details":[
                     {
-                        "value": 131.14,
-                        "difference": 31.14,
-                        "round": 1
+                        "value":160.64,
+                        "difference":0.48,
+                        "round":9
                     },
                     {
-                        "value": 155.83,
-                        "difference": 24.69,
-                        "round": 2
+                        "value":160.31,
+                        "difference":-0.33,
+                        "round":10
                     },
                     {
-                        "value": 159.33,
-                        "difference": 3.5,
-                        "round": 3
+                        "value":164.17,
+                        "difference":3.86,
+                        "round":11
+                    },
+                    {
+                        "value":169,
+                        "difference":4.83,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Chico e Gunha FC",
-                "player": "Rennan Batista",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/51/03/57/003c06ccac-0b0d-4f74-9433-93c51432475120180323220357",
-                "difference": 58.81,
-                "details": [
+                "name":"Celim Team",
+                "player":"Marcelo Pascoal",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/73/08/40/00524fac54-80b2-404a-af8e-685d2d16107320180410140840",
+                "difference":7.450000000000002,
+                "details":[
                     {
-                        "value": 123.14,
-                        "difference": 23.14,
-                        "round": 1
+                        "value":175.43,
+                        "difference":10.74,
+                        "round":9
                     },
                     {
-                        "value": 148.3,
-                        "difference": 25.16,
-                        "round": 2
+                        "value":175.57,
+                        "difference":0.14,
+                        "round":10
                     },
                     {
-                        "value": 158.81,
-                        "difference": 10.51,
-                        "round": 3
+                        "value":172.77,
+                        "difference":-2.8,
+                        "round":11
+                    },
+                    {
+                        "value":172.14,
+                        "difference":-0.63,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "FutArte FEC",
-                "player": "Yuri Silva",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/af/39/37/00e85bc1c3-11f6-4945-b966-696c091d20af20180326133937",
-                "difference": 58.75,
-                "details": [
+                "name":"Down Futball United",
+                "player":"Márcio Ayres",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/f6/28/00/008d179c97-48ca-48d2-b579-469a5c2ab7f620180323192800",
+                "difference":7.1,
+                "details":[
                     {
-                        "value": 125.98,
-                        "difference": 25.98,
-                        "round": 1
+                        "value":202.8,
+                        "difference":0.149999999999999,
+                        "round":9
                     },
                     {
-                        "value": 147.87,
-                        "difference": 21.89,
-                        "round": 2
+                        "value":201.44,
+                        "difference":-1.36,
+                        "round":10
                     },
                     {
-                        "value": 158.75,
-                        "difference": 10.88,
-                        "round": 3
+                        "value":207.05,
+                        "difference":5.61,
+                        "round":11
+                    },
+                    {
+                        "value":209.75,
+                        "difference":2.7,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Zanatinha CFC",
-                "player": "Daniel Zanata",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/0a/02/08/00cf4297dc-6402-466b-b246-8a46ee20d50a20180412160208",
-                "difference": 57.79,
-                "details": [
+                "name":"Ferrimbahçe",
+                "player":"Rafael Costa",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_112/escudo/e6/09/39/001d366c29-9e34-4201-958b-34aa246edfe620180414140939",
+                "difference":6.959999999999999,
+                "details":[
                     {
-                        "value": 143.55,
-                        "difference": 43.55,
-                        "round": 1
+                        "value":182.75,
+                        "difference":7.5,
+                        "round":9
                     },
                     {
-                        "value": 160.69,
-                        "difference": 17.14,
-                        "round": 2
+                        "value":184.03,
+                        "difference":1.28,
+                        "round":10
                     },
                     {
-                        "value": 157.79,
-                        "difference": -2.9,
-                        "round": 3
+                        "value":183.64,
+                        "difference":-0.39,
+                        "round":11
+                    },
+                    {
+                        "value":182.21,
+                        "difference":-1.43,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "47 DO SEGUNDO TEMPO FC",
-                "player": "Cleber Ramos",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/71/33/22/00716ed07e-6578-472f-955c-32ebda49777120180413133322",
-                "difference": 57.28,
-                "details": [
+                "name":"IslandOfCatsFootball",
+                "player":"Felipe Phelype",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/3b/30/52/00e363677a-d283-48b2-8f1a-97fee1ada03b20180326223052",
+                "difference":6.91,
+                "details":[
                     {
-                        "value": 130.24,
-                        "difference": 30.24,
-                        "round": 1
+                        "value":145.86,
+                        "difference":0.87,
+                        "round":9
                     },
                     {
-                        "value": 143.99,
-                        "difference": 13.75,
-                        "round": 2
+                        "value":143.29,
+                        "difference":-2.57,
+                        "round":10
                     },
                     {
-                        "value": 157.28,
-                        "difference": 13.29,
-                        "round": 3
+                        "value":148.51,
+                        "difference":5.22,
+                        "round":11
+                    },
+                    {
+                        "value":151.9,
+                        "difference":3.39,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Boa Viagem E. Clube",
-                "player": "José Carlos",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/40/32/34/00bf8f80da-4356-466e-a062-da07b4b1a34020180410103234",
-                "difference": 57.19,
-                "details": [
+                "name":"Come mosca fc",
+                "player":"Matheus Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/e6/35/18/00c0de3da7-5908-4d60-acff-4b380add5fe620180322133518",
+                "difference":6.6,
+                "details":[
                     {
-                        "value": 125.53,
-                        "difference": 25.53,
-                        "round": 1
+                        "value":191.75,
+                        "difference":2.52,
+                        "round":9
                     },
                     {
-                        "value": 150.63,
-                        "difference": 25.1,
-                        "round": 2
+                        "value":192.71,
+                        "difference":0.959999999999999,
+                        "round":10
                     },
                     {
-                        "value": 157.19,
-                        "difference": 6.56,
-                        "round": 3
+                        "value":194.64,
+                        "difference":1.93,
+                        "round":11
+                    },
+                    {
+                        "value":195.83,
+                        "difference":1.19,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "PIEDADE FCF",
-                "player": "Daniel Oliveira",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/02/24/25/00a1fc9194-2acd-4579-b6ff-6e936d070b0220180322142425",
-                "difference": 56.94,
-                "details": [
+                "name":"simple man",
+                "player":"Renan Benevides",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/a5/56/39/0019f298fb-4fc9-47d2-a8e6-b944682db5a520180413145639",
+                "difference":6.48,
+                "details":[
                     {
-                        "value": 124.98,
-                        "difference": 24.98,
-                        "round": 1
+                        "value":139.23,
+                        "difference":2.72,
+                        "round":9
                     },
                     {
-                        "value": 148.19,
-                        "difference": 23.21,
-                        "round": 2
+                        "value":141.12,
+                        "difference":1.89,
+                        "round":10
                     },
                     {
-                        "value": 156.94,
-                        "difference": 8.75,
-                        "round": 3
+                        "value":139.85,
+                        "difference":-1.27,
+                        "round":11
+                    },
+                    {
+                        "value":142.99,
+                        "difference":3.14,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Ferrimbahçe",
-                "player": "Rafael Costa",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_112/escudo/e6/09/39/001d366c29-9e34-4201-958b-34aa246edfe620180414140939",
-                "difference": 52.17,
-                "details": [
+                "name":"Raimundões FC",
+                "player":"Danielson Filho",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/fb/40/17/0044d2aa58-33cc-4c54-a068-585cd48c18fb20180406094017",
+                "difference":6.19,
+                "details":[
                     {
-                        "value": 129.37,
-                        "difference": 29.37,
-                        "round": 1
+                        "value":211.91,
+                        "difference":3.72,
+                        "round":9
                     },
                     {
-                        "value": 145.0,
-                        "difference": 15.63,
-                        "round": 2
+                        "value":212.16,
+                        "difference":0.25,
+                        "round":10
                     },
                     {
-                        "value": 152.17,
-                        "difference": 7.17,
-                        "round": 3
+                        "value":213.05,
+                        "difference":0.89,
+                        "round":11
+                    },
+                    {
+                        "value":214.38,
+                        "difference":1.33,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "VBSantiago FC",
-                "player": "Victor Santiago",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/82/18/03/001e09f7b4-5047-495a-8634-8d3328be278220180326111803",
-                "difference": 50.78,
-                "details": [
+                "name":"Cearamengofc",
+                "player":"Diogo",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/9f/10/40/00385df8a3-17fd-4936-a6eb-3270855b619f20180326201040",
+                "difference":5.68,
+                "details":[
                     {
-                        "value": 122.1,
-                        "difference": 22.1,
-                        "round": 1
+                        "value":146.08,
+                        "difference":3,
+                        "round":9
                     },
                     {
-                        "value": 145.77,
-                        "difference": 23.67,
-                        "round": 2
+                        "value":146.36,
+                        "difference":0.28,
+                        "round":10
                     },
                     {
-                        "value": 150.78,
-                        "difference": 5.01,
-                        "round": 3
+                        "value":146.09,
+                        "difference":-0.27,
+                        "round":11
+                    },
+                    {
+                        "value":148.76,
+                        "difference":2.67,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Palestra Cangaceiro",
-                "player": "Marcelo Faustino",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/19/09/39/0096e4f1f1-f2b9-4f08-b945-2ac1943bab1920180322150939",
-                "difference": 49.46,
-                "details": [
+                "name":"Pau Serrado FC",
+                "player":"Elano Matos",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/82/02/44/007f184c56-0ccd-4ad9-b966-1be4c2af158220180413170244",
+                "difference":5.409999999999999,
+                "details":[
                     {
-                        "value": 128.27,
-                        "difference": 28.27,
-                        "round": 1
+                        "value":156.92,
+                        "difference":-1.35,
+                        "round":9
                     },
                     {
-                        "value": 147.18,
-                        "difference": 18.91,
-                        "round": 2
+                        "value":158.13,
+                        "difference":1.21,
+                        "round":10
                     },
                     {
-                        "value": 149.46,
-                        "difference": 2.28,
-                        "round": 3
+                        "value":167.73,
+                        "difference":9.6,
+                        "round":11
+                    },
+                    {
+                        "value":163.68,
+                        "difference":-4.05,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "FlaMegue FC",
-                "player": "Willame",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/9b/51/14/004c2515ba-6c25-4871-883c-c00ed77e7e9b20180413205114",
-                "difference": 49.269999999999996,
-                "details": [
+                "name":"C.Luiz",
+                "player":"Cayo Luiz",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/f4/51/23/003ad7972e-c85d-4ea0-a979-f373c9815ff420180326185123",
+                "difference":5.4,
+                "details":[
                     {
-                        "value": 121.62,
-                        "difference": 21.62,
-                        "round": 1
+                        "value":130.6,
+                        "difference":-3.22,
+                        "round":9
                     },
                     {
-                        "value": 144.8,
-                        "difference": 23.18,
-                        "round": 2
+                        "value":132.08,
+                        "difference":1.48,
+                        "round":10
                     },
                     {
-                        "value": 149.27,
-                        "difference": 4.47,
-                        "round": 3
+                        "value":131.91,
+                        "difference":-0.169999999999999,
+                        "round":11
+                    },
+                    {
+                        "value":139.22,
+                        "difference":7.31,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Batista S.C",
-                "player": "Caio Batista",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/ea/12/37/006d268f25-c0b7-4761-b3ff-8e3a9d8c0dea20180323201237",
-                "difference": 48.75,
-                "details": [
+                "name":"FlaMegue FC",
+                "player":"Willame",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/9b/51/14/004c2515ba-6c25-4871-883c-c00ed77e7e9b20180413205114",
+                "difference":4.82,
+                "details":[
                     {
-                        "value": 122.95,
-                        "difference": 22.95,
-                        "round": 1
+                        "value":175.51,
+                        "difference":4.02,
+                        "round":9
                     },
                     {
-                        "value": 145.74,
-                        "difference": 22.79,
-                        "round": 2
+                        "value":174.78,
+                        "difference":-0.73,
+                        "round":10
                     },
                     {
-                        "value": 148.75,
-                        "difference": 3.01,
-                        "round": 3
+                        "value":180.97,
+                        "difference":6.19,
+                        "round":11
+                    },
+                    {
+                        "value":176.31,
+                        "difference":-4.66,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "SergioMoro18",
-                "player": "Carlos Eduardo",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/7e/12/58/0070378384-0d8f-4705-bdc1-56670650ef7e20180412161258",
-                "difference": 45.58,
-                "details": [
+                "name":"Phode Chorarr FC",
+                "player":"Ronilson Costa",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_103/escudo/36/36/53/00f3f60de2-60ef-432d-9695-e924b034033620180326233653",
+                "difference":4.48,
+                "details":[
                     {
-                        "value": 126.3,
-                        "difference": 26.3,
-                        "round": 1
+                        "value":187.44,
+                        "difference":4.1,
+                        "round":9
                     },
                     {
-                        "value": 137.07,
-                        "difference": 10.77,
-                        "round": 2
+                        "value":191.23,
+                        "difference":3.79,
+                        "round":10
                     },
                     {
-                        "value": 145.58,
-                        "difference": 8.51,
-                        "round": 3
+                        "value":186.13,
+                        "difference":-5.1,
+                        "round":11
+                    },
+                    {
+                        "value":187.82,
+                        "difference":1.69,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Celim Team",
-                "player": "Marcelo Pascoal",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/73/08/40/00524fac54-80b2-404a-af8e-685d2d16107320180410140840",
-                "difference": 45.21,
-                "details": [
+                "name":"Valério Central F. C",
+                "player":"Bruno Dias",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/aa/54/56/00e01a2f6b-9906-4e70-8d91-ec6cc5bad9aa20180406175456",
+                "difference":3.9399999999999995,
+                "details":[
                     {
-                        "value": 124.87,
-                        "difference": 24.87,
-                        "round": 1
+                        "value":197.91,
+                        "difference":1.16,
+                        "round":9
                     },
                     {
-                        "value": 146.26,
-                        "difference": 21.39,
-                        "round": 2
+                        "value":198.7,
+                        "difference":0.79,
+                        "round":10
                     },
                     {
-                        "value": 145.21,
-                        "difference": -1.05,
-                        "round": 3
+                        "value":199.18,
+                        "difference":0.48,
+                        "round":11
+                    },
+                    {
+                        "value":200.69,
+                        "difference":1.51,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Rua02 FA",
-                "player": "Bruno Pinheiro",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_104/escudo/2f/57/04/00ae2cbe78-2690-46c3-b76a-2b64bebd532f20180401215704",
-                "difference": 43.93,
-                "details": [
+                "name":"PIEDADE FCF",
+                "player":"Daniel Oliveira",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/02/24/25/00a1fc9194-2acd-4579-b6ff-6e936d070b0220180322142425",
+                "difference":3.58,
+                "details":[
                     {
-                        "value": 123.5,
-                        "difference": 23.5,
-                        "round": 1
+                        "value":155.02,
+                        "difference":2.48,
+                        "round":9
                     },
                     {
-                        "value": 136.12,
-                        "difference": 12.62,
-                        "round": 2
+                        "value":154.28,
+                        "difference":-0.74,
+                        "round":10
                     },
                     {
-                        "value": 143.93,
-                        "difference": 7.81,
-                        "round": 3
+                        "value":153.92,
+                        "difference":-0.36,
+                        "round":11
+                    },
+                    {
+                        "value":156.12,
+                        "difference":2.2,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "coringao team1",
-                "player": "Ivolnildo",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/3c/35/13/0074655b24-f231-4e24-bd83-1d5c692eda3c20180326183513",
-                "difference": 42.36,
-                "details": [
+                "name":"Chico e Gunha FC",
+                "player":"Rennan Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/51/03/57/003c06ccac-0b0d-4f74-9433-93c51432475120180323220357",
+                "difference":3.54,
+                "details":[
                     {
-                        "value": 114.03,
-                        "difference": 14.03,
-                        "round": 1
+                        "value":171.62,
+                        "difference":-3.24,
+                        "round":9
                     },
                     {
-                        "value": 132.43,
-                        "difference": 18.4,
-                        "round": 2
+                        "value":173.44,
+                        "difference":1.82,
+                        "round":10
                     },
                     {
-                        "value": 142.36,
-                        "difference": 9.93,
-                        "round": 3
+                        "value":174.97,
+                        "difference":1.53,
+                        "round":11
+                    },
+                    {
+                        "value":178.4,
+                        "difference":3.43,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "vovo S.C",
-                "player": "Lucas Batista",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/f6/17/23/00b142cb5a-fdfd-4976-875a-89e6a21cdef620180324211723",
-                "difference": 39.84,
-                "details": [
+                "name":"JORGEJOH",
+                "player":"JORGE PEREIRA",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/aa/17/03/007dbfde16-dee2-4a0a-abf1-f1f3eedcaaaa20180412131703",
+                "difference":2.91,
+                "details":[
                     {
-                        "value": 119.91,
-                        "difference": 19.91,
-                        "round": 1
+                        "value":156.3,
+                        "difference":4.91,
+                        "round":9
                     },
                     {
-                        "value": 139.07,
-                        "difference": 19.16,
-                        "round": 2
+                        "value":154.31,
+                        "difference":-1.99,
+                        "round":10
                     },
                     {
-                        "value": 139.84,
-                        "difference": 0.77,
-                        "round": 3
+                        "value":152.95,
+                        "difference":-1.36,
+                        "round":11
+                    },
+                    {
+                        "value":154.3,
+                        "difference":1.35,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Vanduka FC",
-                "player": "Vanduy Sales",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/5e/46/05/00f08bd7cf-ca3e-4734-871a-e40a53804b5e20180410154605",
-                "difference": 37.06,
-                "details": [
+                "name":"Vanduka FC",
+                "player":"Vanduy Sales",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/5e/46/05/00f08bd7cf-ca3e-4734-871a-e40a53804b5e20180410154605",
+                "difference":2.13,
+                "details":[
                     {
-                        "value": 113.59,
-                        "difference": 13.59,
-                        "round": 1
+                        "value":163.71,
+                        "difference":1.94,
+                        "round":9
                     },
                     {
-                        "value": 128.04,
-                        "difference": 14.45,
-                        "round": 2
+                        "value":163.4,
+                        "difference":-0.31,
+                        "round":10
                     },
                     {
-                        "value": 137.06,
-                        "difference": 9.02,
-                        "round": 3
+                        "value":165.7,
+                        "difference":2.3,
+                        "round":11
+                    },
+                    {
+                        "value":163.9,
+                        "difference":-1.8,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "FaBayern FC",
-                "player": "Fabio Gurgel",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/62/39/50/0067cbf8fd-a20c-499e-bef5-f0f5c0ce5b6220180411153950",
-                "difference": 35.22,
-                "details": [
+                "name":"coringao team1",
+                "player":"Ivolnildo",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/3c/35/13/0074655b24-f231-4e24-bd83-1d5c692eda3c20180326183513",
+                "difference":1.7299999999999998,
+                "details":[
                     {
-                        "value": 131.75,
-                        "difference": 31.75,
-                        "round": 1
+                        "value":168.52,
+                        "difference":-1.57,
+                        "round":9
                     },
                     {
-                        "value": 140.64,
-                        "difference": 8.89,
-                        "round": 2
+                        "value":173.94,
+                        "difference":5.42,
+                        "round":10
                     },
                     {
-                        "value": 135.22,
-                        "difference": -5.42,
-                        "round": 3
+                        "value":170.04,
+                        "difference":-3.9,
+                        "round":11
+                    },
+                    {
+                        "value":171.82,
+                        "difference":1.78,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Mumbaba Futebol Clube",
-                "player": "Messias Cezar",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_115/escudo/da/42/10/0080bc5722-e087-4531-a3b0-b3d504455cda20180423114210",
-                "difference": 33.35,
-                "details": [
+                "name":"Emival SCCP",
+                "player":"Emival Queiroz",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/19/22/55/00d1e5a05d-2d80-4c88-b431-b30d36594c1920180411162255",
+                "difference":1.4900000000000002,
+                "details":[
                     {
-                        "value": 106.03,
-                        "difference": 6.03,
-                        "round": 1
+                        "value":164.57,
+                        "difference":7.11,
+                        "round":9
                     },
                     {
-                        "value": 118.16,
-                        "difference": 12.13,
-                        "round": 2
+                        "value":158.48,
+                        "difference":-6.09,
+                        "round":10
                     },
                     {
-                        "value": 133.35,
-                        "difference": 15.19,
-                        "round": 3
+                        "value":158.53,
+                        "difference":0.0499999999999998,
+                        "round":11
+                    },
+                    {
+                        "value":158.95,
+                        "difference":0.42,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Bessa CSC",
-                "player": "Victor Bessa",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/dc/33/02/00ce9bd458-5b83-48c7-a0c0-a4710fc141dc20180411103302",
-                "difference": 32.43,
-                "details": [
+                "name":"Victor Gomes Sporting Club",
+                "player":"Victor Gomes",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/63/43/03/00cc0f22de-56ce-4cd3-b0d5-a0d7e4717f6320180412174303",
+                "difference":-0.21999999999999975,
+                "details":[
                     {
-                        "value": 119.05,
-                        "difference": 19.05,
-                        "round": 1
+                        "value":185.02,
+                        "difference":3.12,
+                        "round":9
                     },
                     {
-                        "value": 131.03,
-                        "difference": 11.98,
-                        "round": 2
+                        "value":184.01,
+                        "difference":-1.01,
+                        "round":10
                     },
                     {
-                        "value": 132.43,
-                        "difference": 1.4,
-                        "round": 3
+                        "value":186.79,
+                        "difference":2.78,
+                        "round":11
+                    },
+                    {
+                        "value":181.68,
+                        "difference":-5.11,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "JORGEJOH",
-                "player": "JORGE PEREIRA",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/aa/17/03/007dbfde16-dee2-4a0a-abf1-f1f3eedcaaaa20180412131703",
-                "difference": 32.0,
-                "details": [
+                "name":"FutArte FEC",
+                "player":"Yuri Silva",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/af/39/37/00e85bc1c3-11f6-4945-b966-696c091d20af20180326133937",
+                "difference":-1.2299999999999995,
+                "details":[
                     {
-                        "value": 122.07,
-                        "difference": 22.07,
-                        "round": 1
+                        "value":166.33,
+                        "difference":4.53,
+                        "round":9
                     },
                     {
-                        "value": 135.32,
-                        "difference": 13.25,
-                        "round": 2
+                        "value":168.61,
+                        "difference":2.28,
+                        "round":10
                     },
                     {
-                        "value": 132.0,
-                        "difference": -3.32,
-                        "round": 3
+                        "value":162.44,
+                        "difference":-6.17,
+                        "round":11
+                    },
+                    {
+                        "value":160.57,
+                        "difference":-1.87,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Gigante Alvinegro MF",
-                "player": "Márcio Fernandes",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/3b/42/24/00cd21c39d-27f3-453f-96eb-de0bf4c9d13b20180413164224",
-                "difference": 31.39,
-                "details": [
+                "name":"Mumbaba Futebol Clube",
+                "player":"Messias Cezar",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_115/escudo/da/42/10/0080bc5722-e087-4531-a3b0-b3d504455cda20180423114210",
+                "difference":-1.7600000000000007,
+                "details":[
                     {
-                        "value": 109.32,
-                        "difference": 9.32,
-                        "round": 1
+                        "value":140.01,
+                        "difference":-0.250000000000001,
+                        "round":9
                     },
                     {
-                        "value": 128.74,
-                        "difference": 19.42,
-                        "round": 2
+                        "value":137.48,
+                        "difference":-2.53,
+                        "round":10
                     },
                     {
-                        "value": 131.39,
-                        "difference": 2.65,
-                        "round": 3
+                        "value":139.04,
+                        "difference":1.56,
+                        "round":11
+                    },
+                    {
+                        "value":138.5,
+                        "difference":-0.54,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Cearamengofc",
-                "player": "Diogo",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/9f/10/40/00385df8a3-17fd-4936-a6eb-3270855b619f20180326201040",
-                "difference": 31.29,
-                "details": [
+                "name":"Gigante Alvinegro MF",
+                "player":"Márcio Fernandes",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/3b/42/24/00cd21c39d-27f3-453f-96eb-de0bf4c9d13b20180413164224",
+                "difference":-2.0300000000000002,
+                "details":[
                     {
-                        "value": 108.99,
-                        "difference": 8.99,
-                        "round": 1
+                        "value":138.51,
+                        "difference":0.0699999999999998,
+                        "round":9
                     },
                     {
-                        "value": 128.64,
-                        "difference": 19.65,
-                        "round": 2
+                        "value":136.71,
+                        "difference":-1.8,
+                        "round":10
                     },
                     {
-                        "value": 131.29,
-                        "difference": 2.65,
-                        "round": 3
+                        "value":137.52,
+                        "difference":0.81,
+                        "round":11
+                    },
+                    {
+                        "value":136.41,
+                        "difference":-1.11,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "FC Cara Seca",
-                "player": "Vanderson Cabral",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/58/27/49/0095a2202b-f659-485c-a073-a8708b2d215820180412132749",
-                "difference": 28.6,
-                "details": [
+                "name":"Clube Artimanhã",
+                "player":"Karlos Emanuel",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/71/01/27/006e2380da-4e96-4336-a467-e43ce6f5d67120180411130127",
+                "difference":-2.669999999999998,
+                "details":[
                     {
-                        "value": 121.12,
-                        "difference": 21.12,
-                        "round": 1
+                        "value":185.49,
+                        "difference":6.79,
+                        "round":9
                     },
                     {
-                        "value": 124.21,
-                        "difference": 3.09,
-                        "round": 2
+                        "value":182.4,
+                        "difference":-3.09,
+                        "round":10
                     },
                     {
-                        "value": 128.6,
-                        "difference": 4.39,
-                        "round": 3
+                        "value":183.34,
+                        "difference":0.940000000000001,
+                        "round":11
+                    },
+                    {
+                        "value":176.03,
+                        "difference":-7.31,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "C.Luiz",
-                "player": "Cayo Luiz",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/f4/51/23/003ad7972e-c85d-4ea0-a979-f373c9815ff420180326185123",
-                "difference": 27.28,
-                "details": [
+                "name":"FaBayern FC",
+                "player":"Fabio Gurgel",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/62/39/50/0067cbf8fd-a20c-499e-bef5-f0f5c0ce5b6220180411153950",
+                "difference":-2.95,
+                "details":[
                     {
-                        "value": 111.68,
-                        "difference": 11.68,
-                        "round": 1
+                        "value":148.81,
+                        "difference":-7.55,
+                        "round":9
                     },
                     {
-                        "value": 125.18,
-                        "difference": 13.5,
-                        "round": 2
+                        "value":151.82,
+                        "difference":3.01,
+                        "round":10
                     },
                     {
-                        "value": 127.28,
-                        "difference": 2.1,
-                        "round": 3
+                        "value":155.19,
+                        "difference":3.37,
+                        "round":11
+                    },
+                    {
+                        "value":153.41,
+                        "difference":-1.78,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Pau Serrado FC",
-                "player": "Elano Matos",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/82/02/44/007f184c56-0ccd-4ad9-b966-1be4c2af158220180413170244",
-                "difference": 26.58,
-                "details": [
+                "name":"Vovô do Yan",
+                "player":"Marciano Araújo",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/fc/43/18/00ad839309-7037-49f9-a6e1-fbff4871b2fc20180322144318",
+                "difference":-4.9,
+                "details":[
                     {
-                        "value": 120.18,
-                        "difference": 20.18,
-                        "round": 1
+                        "value":214.12,
+                        "difference":0.0799999999999996,
+                        "round":9
                     },
                     {
-                        "value": 129.45,
-                        "difference": 9.27,
-                        "round": 2
+                        "value":213.17,
+                        "difference":-0.95,
+                        "round":10
                     },
                     {
-                        "value": 126.58,
-                        "difference": -2.87,
-                        "round": 3
+                        "value":208.48,
+                        "difference":-4.69,
+                        "round":11
+                    },
+                    {
+                        "value":209.14,
+                        "difference":0.66,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "galaticobola",
-                "player": "Lucas Emanuel",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_104/escudo/15/17/40/000b06e4c4-462a-4b91-9b82-9ea58e04b41520180402181740",
-                "difference": 24.86,
-                "details": [
+                "name":"PerdiCartola F.C",
+                "player":"Alberto Perdigão",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_111/escudo/15/20/00/000fde8b37-3a24-4acb-8e0c-73d41b9ef71520180414132000",
+                "difference":-6.96,
+                "details":[
                     {
-                        "value": 117.66,
-                        "difference": 17.66,
-                        "round": 1
+                        "value":176.05,
+                        "difference":1.39,
+                        "round":9
                     },
                     {
-                        "value": 119.21,
-                        "difference": 1.55,
-                        "round": 2
+                        "value":172.55,
+                        "difference":-3.5,
+                        "round":10
                     },
                     {
-                        "value": 124.86,
-                        "difference": 5.65,
-                        "round": 3
+                        "value":169.09,
+                        "difference":-3.46,
+                        "round":11
+                    },
+                    {
+                        "value":167.7,
+                        "difference":-1.39,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Cachagol FC",
-                "player": "Felipe Batista",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/9b/16/44/00bbda926c-25c4-4399-9212-484d0dd4c89b20180413191644",
-                "difference": 22.58,
-                "details": [
+                "name":"47 DO SEGUNDO TEMPO FC",
+                "player":"Cleber Ramos",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/71/33/22/00716ed07e-6578-472f-955c-32ebda49777120180413133322",
+                "difference":-8.959999999999999,
+                "details":[
                     {
-                        "value": 112.49,
-                        "difference": 12.49,
-                        "round": 1
+                        "value":185.35,
+                        "difference":2.67,
+                        "round":9
                     },
                     {
-                        "value": 121.67,
-                        "difference": 9.18,
-                        "round": 2
+                        "value":185.41,
+                        "difference":0.0599999999999999,
+                        "round":10
                     },
                     {
-                        "value": 122.58,
-                        "difference": 0.91,
-                        "round": 3
+                        "value":180.53,
+                        "difference":-4.88,
+                        "round":11
+                    },
+                    {
+                        "value":173.72,
+                        "difference":-6.81,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "Emival SCCP",
-                "player": "Emival Queiroz",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/19/22/55/00d1e5a05d-2d80-4c88-b431-b30d36594c1920180411162255",
-                "difference": 21.840000000000003,
-                "details": [
+                "name":"FC Cara Seca",
+                "player":"Vanderson Cabral",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/58/27/49/0095a2202b-f659-485c-a073-a8708b2d215820180412132749",
+                "difference":-11.629999999999999,
+                "details":[
                     {
-                        "value": 111.13,
-                        "difference": 11.13,
-                        "round": 1
+                        "value":146.55,
+                        "difference":-8.1,
+                        "round":9
                     },
                     {
-                        "value": 120.86,
-                        "difference": 9.73,
-                        "round": 2
+                        "value":145.13,
+                        "difference":-1.42,
+                        "round":10
                     },
                     {
-                        "value": 121.84,
-                        "difference": 0.98,
-                        "round": 3
+                        "value":142.46,
+                        "difference":-2.67,
+                        "round":11
+                    },
+                    {
+                        "value":143.02,
+                        "difference":0.56,
+                        "round":12
                     }
                 ]
             },
             {
-                "name": "IslandOfCatsFootball",
-                "player": "Felipe Phelype",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/3b/30/52/00e363677a-d283-48b2-8f1a-97fee1ada03b20180326223052",
-                "difference": 21.810000000000002,
-                "details": [
+                "name":"Zanatinha CFC",
+                "player":"Daniel Zanata",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/0a/02/08/00cf4297dc-6402-466b-b246-8a46ee20d50a20180412160208",
+                "difference":-13.19,
+                "details":[
                     {
-                        "value": 113.44,
-                        "difference": 13.44,
-                        "round": 1
+                        "value":160.12,
+                        "difference":-1.76,
+                        "round":9
                     },
                     {
-                        "value": 126.27,
-                        "difference": 12.83,
-                        "round": 2
+                        "value":155.61,
+                        "difference":-4.51,
+                        "round":10
                     },
                     {
-                        "value": 121.81,
-                        "difference": -4.46,
-                        "round": 3
+                        "value":152.52,
+                        "difference":-3.09,
+                        "round":11
+                    },
+                    {
+                        "value":148.69,
+                        "difference":-3.83,
+                        "round":12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Abril/Maio",
+        "id":7,
+        "teams":[
+            {
+                "name":"Vovô do Yan",
+                "player":"Marciano Araújo",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/fc/43/18/00ad839309-7037-49f9-a6e1-fbff4871b2fc20180322144318",
+                "difference":114.03999999999999,
+                "details":[
+                    {
+                        "value":149.11,
+                        "difference":49.11,
+                        "round":1
+                    },
+                    {
+                        "value":174.96,
+                        "difference":25.85,
+                        "round":2
+                    },
+                    {
+                        "value":186.08,
+                        "difference":11.12,
+                        "round":3
+                    },
+                    {
+                        "value":196.21,
+                        "difference":10.13,
+                        "round":4
+                    },
+                    {
+                        "value":200.67,
+                        "difference":4.46,
+                        "round":5
+                    },
+                    {
+                        "value":201.51,
+                        "difference":0.84,
+                        "round":6
+                    },
+                    {
+                        "value":202.36,
+                        "difference":0.85,
+                        "round":7
+                    },
+                    {
+                        "value":214.04,
+                        "difference":11.68,
+                        "round":8
                     }
                 ]
             },
             {
-                "name": "simple man",
-                "player": "Renan Benevides",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/a5/56/39/0019f298fb-4fc9-47d2-a8e6-b944682db5a520180413145639",
-                "difference": 18.1,
-                "details": [
+                "name":"Raimundões FC",
+                "player":"Danielson Filho",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/fb/40/17/0044d2aa58-33cc-4c54-a068-585cd48c18fb20180406094017",
+                "difference":108.19,
+                "details":[
                     {
-                        "value": 119.85,
-                        "difference": 19.85,
-                        "round": 1
+                        "value":144.25,
+                        "difference":44.25,
+                        "round":1
                     },
                     {
-                        "value": 117.41,
-                        "difference": -2.44,
-                        "round": 2
+                        "value":164.63,
+                        "difference":20.38,
+                        "round":2
                     },
                     {
-                        "value": 118.1,
-                        "difference": 0.69,
-                        "round": 3
+                        "value":176.64,
+                        "difference":12.01,
+                        "round":3
+                    },
+                    {
+                        "value":183.72,
+                        "difference":7.08,
+                        "round":4
+                    },
+                    {
+                        "value":188.92,
+                        "difference":5.2,
+                        "round":5
+                    },
+                    {
+                        "value":195.3,
+                        "difference":6.38,
+                        "round":6
+                    },
+                    {
+                        "value":200.6,
+                        "difference":5.3,
+                        "round":7
+                    },
+                    {
+                        "value":208.19,
+                        "difference":7.59,
+                        "round":8
                     }
                 ]
             },
             {
-                "name": "Camisa10daGavea",
-                "player": "Marcelo Almeida",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/cd/38/52/0088e74e4f-f38a-4256-8c47-0179c02643cd20180412183852",
-                "difference": 17.700000000000003,
-                "details": [
+                "name":"Down Futball United",
+                "player":"Márcio Ayres",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/f6/28/00/008d179c97-48ca-48d2-b579-469a5c2ab7f620180323192800",
+                "difference":102.65,
+                "details":[
                     {
-                        "value": 110.82,
-                        "difference": 10.82,
-                        "round": 1
+                        "value":149.53,
+                        "difference":49.53,
+                        "round":1
                     },
                     {
-                        "value": 122.7,
-                        "difference": 11.88,
-                        "round": 2
+                        "value":174.21,
+                        "difference":24.68,
+                        "round":2
                     },
                     {
-                        "value": 117.7,
-                        "difference": -5.0,
-                        "round": 3
+                        "value":181.5,
+                        "difference":7.29,
+                        "round":3
+                    },
+                    {
+                        "value":182.22,
+                        "difference":0.720000000000001,
+                        "round":4
+                    },
+                    {
+                        "value":191.32,
+                        "difference":9.1,
+                        "round":5
+                    },
+                    {
+                        "value":192.06,
+                        "difference":0.74,
+                        "round":6
+                    },
+                    {
+                        "value":197.7,
+                        "difference":5.64,
+                        "round":7
+                    },
+                    {
+                        "value":202.65,
+                        "difference":4.95,
+                        "round":8
                     }
                 ]
             },
             {
-                "name": "Ragnar Lothbrok 2018",
-                "player": "Paulo Cristiano",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/9e/48/55/00c8ee0c6a-37ab-40ea-8a28-9b8be9b8649e20180411094855",
-                "difference": 9.54,
-                "details": [
+                "name":"Valério Central F. C",
+                "player":"Bruno Dias",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/aa/54/56/00e01a2f6b-9906-4e70-8d91-ec6cc5bad9aa20180406175456",
+                "difference":96.75000000000001,
+                "details":[
                     {
-                        "value": 102.61,
-                        "difference": 2.61,
-                        "round": 1
+                        "value":136.03,
+                        "difference":36.03,
+                        "round":1
                     },
                     {
-                        "value": 108.74,
-                        "difference": 6.13,
-                        "round": 2
+                        "value":162.25,
+                        "difference":26.22,
+                        "round":2
                     },
                     {
-                        "value": 109.54,
-                        "difference": 0.8,
-                        "round": 3
+                        "value":171.93,
+                        "difference":9.68,
+                        "round":3
+                    },
+                    {
+                        "value":181.94,
+                        "difference":10.01,
+                        "round":4
+                    },
+                    {
+                        "value":190.41,
+                        "difference":8.47,
+                        "round":5
+                    },
+                    {
+                        "value":185.92,
+                        "difference":-4.49,
+                        "round":6
+                    },
+                    {
+                        "value":190.38,
+                        "difference":4.46,
+                        "round":7
+                    },
+                    {
+                        "value":196.75,
+                        "difference":6.37,
+                        "round":8
                     }
                 ]
             },
             {
-                "name": "djmss fc",
-                "player": "Daniel Mendes",
-                "team_symbol": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/01/40/51/003bc5bc37-a9f7-4c4c-a152-ed225a60d20120180410144051",
-                "difference": -6.989999999999999,
-                "details": [
+                "name":"Come mosca fc",
+                "player":"Matheus Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/e6/35/18/00c0de3da7-5908-4d60-acff-4b380add5fe620180322133518",
+                "difference":89.23,
+                "details":[
                     {
-                        "value": 87.97,
-                        "difference": -12.03,
-                        "round": 1
+                        "value":135.63,
+                        "difference":35.63,
+                        "round":1
                     },
                     {
-                        "value": 87.77,
-                        "difference": -0.2,
-                        "round": 2
+                        "value":157.46,
+                        "difference":21.83,
+                        "round":2
                     },
                     {
-                        "value": 93.01,
-                        "difference": 5.24,
-                        "round": 3
+                        "value":170.13,
+                        "difference":12.67,
+                        "round":3
+                    },
+                    {
+                        "value":168.47,
+                        "difference":-1.66,
+                        "round":4
+                    },
+                    {
+                        "value":176.63,
+                        "difference":8.16,
+                        "round":5
+                    },
+                    {
+                        "value":181.72,
+                        "difference":5.09,
+                        "round":6
+                    },
+                    {
+                        "value":189.51,
+                        "difference":7.79,
+                        "round":7
+                    },
+                    {
+                        "value":189.23,
+                        "difference":-0.28,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Phode Chorarr FC",
+                "player":"Ronilson Costa",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_103/escudo/36/36/53/00f3f60de2-60ef-432d-9695-e924b034033620180326233653",
+                "difference":83.33999999999999,
+                "details":[
+                    {
+                        "value":143.66,
+                        "difference":43.66,
+                        "round":1
+                    },
+                    {
+                        "value":164.4,
+                        "difference":20.74,
+                        "round":2
+                    },
+                    {
+                        "value":168.32,
+                        "difference":3.92,
+                        "round":3
+                    },
+                    {
+                        "value":170.39,
+                        "difference":2.07,
+                        "round":4
+                    },
+                    {
+                        "value":181.73,
+                        "difference":11.34,
+                        "round":5
+                    },
+                    {
+                        "value":179.82,
+                        "difference":-1.91,
+                        "round":6
+                    },
+                    {
+                        "value":181.24,
+                        "difference":1.42,
+                        "round":7
+                    },
+                    {
+                        "value":183.34,
+                        "difference":2.1,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"47 DO SEGUNDO TEMPO FC",
+                "player":"Cleber Ramos",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/71/33/22/00716ed07e-6578-472f-955c-32ebda49777120180413133322",
+                "difference":82.68,
+                "details":[
+                    {
+                        "value":130.24,
+                        "difference":30.24,
+                        "round":1
+                    },
+                    {
+                        "value":143.99,
+                        "difference":13.75,
+                        "round":2
+                    },
+                    {
+                        "value":157.28,
+                        "difference":13.29,
+                        "round":3
+                    },
+                    {
+                        "value":158.21,
+                        "difference":0.93,
+                        "round":4
+                    },
+                    {
+                        "value":164.6,
+                        "difference":6.39,
+                        "round":5
+                    },
+                    {
+                        "value":173.19,
+                        "difference":8.59,
+                        "round":6
+                    },
+                    {
+                        "value":178.37,
+                        "difference":5.18,
+                        "round":7
+                    },
+                    {
+                        "value":182.68,
+                        "difference":4.31,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Victor Gomes Sporting Club",
+                "player":"Victor Gomes",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/63/43/03/00cc0f22de-56ce-4cd3-b0d5-a0d7e4717f6320180412174303",
+                "difference":81.9,
+                "details":[
+                    {
+                        "value":137.4,
+                        "difference":37.4,
+                        "round":1
+                    },
+                    {
+                        "value":162.72,
+                        "difference":25.32,
+                        "round":2
+                    },
+                    {
+                        "value":165.04,
+                        "difference":2.32,
+                        "round":3
+                    },
+                    {
+                        "value":165.92,
+                        "difference":0.88,
+                        "round":4
+                    },
+                    {
+                        "value":174.18,
+                        "difference":8.26,
+                        "round":5
+                    },
+                    {
+                        "value":180.19,
+                        "difference":6.01,
+                        "round":6
+                    },
+                    {
+                        "value":180.28,
+                        "difference":0.0900000000000002,
+                        "round":7
+                    },
+                    {
+                        "value":181.9,
+                        "difference":1.62,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Clube Artimanhã",
+                "player":"Karlos Emanuel",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/71/01/27/006e2380da-4e96-4336-a467-e43ce6f5d67120180411130127",
+                "difference":78.7,
+                "details":[
+                    {
+                        "value":131.14,
+                        "difference":31.14,
+                        "round":1
+                    },
+                    {
+                        "value":155.83,
+                        "difference":24.69,
+                        "round":2
+                    },
+                    {
+                        "value":159.33,
+                        "difference":3.5,
+                        "round":3
+                    },
+                    {
+                        "value":158.99,
+                        "difference":-0.34,
+                        "round":4
+                    },
+                    {
+                        "value":163.44,
+                        "difference":4.45,
+                        "round":5
+                    },
+                    {
+                        "value":172.43,
+                        "difference":8.99,
+                        "round":6
+                    },
+                    {
+                        "value":175.68,
+                        "difference":3.25,
+                        "round":7
+                    },
+                    {
+                        "value":178.7,
+                        "difference":3.02,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Batista S.C",
+                "player":"Caio Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/ea/12/37/006d268f25-c0b7-4761-b3ff-8e3a9d8c0dea20180323201237",
+                "difference":75.74,
+                "details":[
+                    {
+                        "value":122.95,
+                        "difference":22.95,
+                        "round":1
+                    },
+                    {
+                        "value":145.74,
+                        "difference":22.79,
+                        "round":2
+                    },
+                    {
+                        "value":148.75,
+                        "difference":3.01,
+                        "round":3
+                    },
+                    {
+                        "value":150.29,
+                        "difference":1.54,
+                        "round":4
+                    },
+                    {
+                        "value":159.24,
+                        "difference":8.95,
+                        "round":5
+                    },
+                    {
+                        "value":165.95,
+                        "difference":6.71,
+                        "round":6
+                    },
+                    {
+                        "value":171.01,
+                        "difference":5.06,
+                        "round":7
+                    },
+                    {
+                        "value":175.74,
+                        "difference":4.73,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Ferrimbahçe",
+                "player":"Rafael Costa",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_112/escudo/e6/09/39/001d366c29-9e34-4201-958b-34aa246edfe620180414140939",
+                "difference":75.25,
+                "details":[
+                    {
+                        "value":129.37,
+                        "difference":29.37,
+                        "round":1
+                    },
+                    {
+                        "value":145,
+                        "difference":15.63,
+                        "round":2
+                    },
+                    {
+                        "value":152.17,
+                        "difference":7.17,
+                        "round":3
+                    },
+                    {
+                        "value":158.31,
+                        "difference":6.14,
+                        "round":4
+                    },
+                    {
+                        "value":168.19,
+                        "difference":9.88,
+                        "round":5
+                    },
+                    {
+                        "value":169.63,
+                        "difference":1.44,
+                        "round":6
+                    },
+                    {
+                        "value":174.92,
+                        "difference":5.29,
+                        "round":7
+                    },
+                    {
+                        "value":175.25,
+                        "difference":0.33,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Chico e Gunha FC",
+                "player":"Rennan Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/51/03/57/003c06ccac-0b0d-4f74-9433-93c51432475120180323220357",
+                "difference":74.86,
+                "details":[
+                    {
+                        "value":123.14,
+                        "difference":23.14,
+                        "round":1
+                    },
+                    {
+                        "value":148.3,
+                        "difference":25.16,
+                        "round":2
+                    },
+                    {
+                        "value":158.81,
+                        "difference":10.51,
+                        "round":3
+                    },
+                    {
+                        "value":152.75,
+                        "difference":-6.06,
+                        "round":4
+                    },
+                    {
+                        "value":161.45,
+                        "difference":8.7,
+                        "round":5
+                    },
+                    {
+                        "value":163.87,
+                        "difference":2.42,
+                        "round":6
+                    },
+                    {
+                        "value":169.91,
+                        "difference":6.04,
+                        "round":7
+                    },
+                    {
+                        "value":174.86,
+                        "difference":4.95,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"PerdiCartola F.C",
+                "player":"Alberto Perdigão",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_111/escudo/15/20/00/000fde8b37-3a24-4acb-8e0c-73d41b9ef71520180414132000",
+                "difference":74.66,
+                "details":[
+                    {
+                        "value":132.87,
+                        "difference":32.87,
+                        "round":1
+                    },
+                    {
+                        "value":150.33,
+                        "difference":17.46,
+                        "round":2
+                    },
+                    {
+                        "value":163.32,
+                        "difference":12.99,
+                        "round":3
+                    },
+                    {
+                        "value":157.6,
+                        "difference":-5.72,
+                        "round":4
+                    },
+                    {
+                        "value":164.8,
+                        "difference":7.2,
+                        "round":5
+                    },
+                    {
+                        "value":160.58,
+                        "difference":-4.22,
+                        "round":6
+                    },
+                    {
+                        "value":168.75,
+                        "difference":8.17,
+                        "round":7
+                    },
+                    {
+                        "value":174.66,
+                        "difference":5.91,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"FlaMegue FC",
+                "player":"Willame",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/9b/51/14/004c2515ba-6c25-4871-883c-c00ed77e7e9b20180413205114",
+                "difference":71.49000000000001,
+                "details":[
+                    {
+                        "value":121.62,
+                        "difference":21.62,
+                        "round":1
+                    },
+                    {
+                        "value":144.8,
+                        "difference":23.18,
+                        "round":2
+                    },
+                    {
+                        "value":149.27,
+                        "difference":4.47,
+                        "round":3
+                    },
+                    {
+                        "value":160.71,
+                        "difference":11.44,
+                        "round":4
+                    },
+                    {
+                        "value":160.4,
+                        "difference":-0.309999999999999,
+                        "round":5
+                    },
+                    {
+                        "value":154.79,
+                        "difference":-5.61,
+                        "round":6
+                    },
+                    {
+                        "value":163.06,
+                        "difference":8.27,
+                        "round":7
+                    },
+                    {
+                        "value":171.49,
+                        "difference":8.43,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"coringao team1",
+                "player":"Ivolnildo",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/3c/35/13/0074655b24-f231-4e24-bd83-1d5c692eda3c20180326183513",
+                "difference":70.08999999999999,
+                "details":[
+                    {
+                        "value":114.03,
+                        "difference":14.03,
+                        "round":1
+                    },
+                    {
+                        "value":132.43,
+                        "difference":18.4,
+                        "round":2
+                    },
+                    {
+                        "value":142.36,
+                        "difference":9.93,
+                        "round":3
+                    },
+                    {
+                        "value":156.58,
+                        "difference":14.22,
+                        "round":4
+                    },
+                    {
+                        "value":168.16,
+                        "difference":11.58,
+                        "round":5
+                    },
+                    {
+                        "value":163.5,
+                        "difference":-4.66,
+                        "round":6
+                    },
+                    {
+                        "value":165.35,
+                        "difference":1.85,
+                        "round":7
+                    },
+                    {
+                        "value":170.09,
+                        "difference":4.74,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Palestra Cangaceiro",
+                "player":"Marcelo Faustino",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/19/09/39/0096e4f1f1-f2b9-4f08-b945-2ac1943bab1920180322150939",
+                "difference":69.88000000000001,
+                "details":[
+                    {
+                        "value":128.27,
+                        "difference":28.27,
+                        "round":1
+                    },
+                    {
+                        "value":147.18,
+                        "difference":18.91,
+                        "round":2
+                    },
+                    {
+                        "value":149.46,
+                        "difference":2.28,
+                        "round":3
+                    },
+                    {
+                        "value":159.16,
+                        "difference":9.7,
+                        "round":4
+                    },
+                    {
+                        "value":168.11,
+                        "difference":8.95,
+                        "round":5
+                    },
+                    {
+                        "value":163.2,
+                        "difference":-4.91,
+                        "round":6
+                    },
+                    {
+                        "value":165.48,
+                        "difference":2.28,
+                        "round":7
+                    },
+                    {
+                        "value":169.88,
+                        "difference":4.4,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"VBSantiago FC",
+                "player":"Victor Santiago",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/82/18/03/001e09f7b4-5047-495a-8634-8d3328be278220180326111803",
+                "difference":69.49,
+                "details":[
+                    {
+                        "value":122.1,
+                        "difference":22.1,
+                        "round":1
+                    },
+                    {
+                        "value":145.77,
+                        "difference":23.67,
+                        "round":2
+                    },
+                    {
+                        "value":150.78,
+                        "difference":5.01,
+                        "round":3
+                    },
+                    {
+                        "value":148.4,
+                        "difference":-2.38,
+                        "round":4
+                    },
+                    {
+                        "value":155.21,
+                        "difference":6.81,
+                        "round":5
+                    },
+                    {
+                        "value":154.19,
+                        "difference":-1.02,
+                        "round":6
+                    },
+                    {
+                        "value":160.4,
+                        "difference":6.21,
+                        "round":7
+                    },
+                    {
+                        "value":169.49,
+                        "difference":9.09,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Celim Team",
+                "player":"Marcelo Pascoal",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/73/08/40/00524fac54-80b2-404a-af8e-685d2d16107320180410140840",
+                "difference":64.69,
+                "details":[
+                    {
+                        "value":124.87,
+                        "difference":24.87,
+                        "round":1
+                    },
+                    {
+                        "value":146.26,
+                        "difference":21.39,
+                        "round":2
+                    },
+                    {
+                        "value":145.21,
+                        "difference":-1.05,
+                        "round":3
+                    },
+                    {
+                        "value":145.04,
+                        "difference":-0.17,
+                        "round":4
+                    },
+                    {
+                        "value":151.97,
+                        "difference":6.93,
+                        "round":5
+                    },
+                    {
+                        "value":151.64,
+                        "difference":-0.33,
+                        "round":6
+                    },
+                    {
+                        "value":150.97,
+                        "difference":-0.67,
+                        "round":7
+                    },
+                    {
+                        "value":164.69,
+                        "difference":13.72,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Zanatinha CFC",
+                "player":"Daniel Zanata",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/0a/02/08/00cf4297dc-6402-466b-b246-8a46ee20d50a20180412160208",
+                "difference":61.879999999999995,
+                "details":[
+                    {
+                        "value":143.55,
+                        "difference":43.55,
+                        "round":1
+                    },
+                    {
+                        "value":160.69,
+                        "difference":17.14,
+                        "round":2
+                    },
+                    {
+                        "value":157.79,
+                        "difference":-2.9,
+                        "round":3
+                    },
+                    {
+                        "value":162.13,
+                        "difference":4.34,
+                        "round":4
+                    },
+                    {
+                        "value":160.45,
+                        "difference":-1.68,
+                        "round":5
+                    },
+                    {
+                        "value":156.99,
+                        "difference":-3.46,
+                        "round":6
+                    },
+                    {
+                        "value":157.19,
+                        "difference":0.200000000000001,
+                        "round":7
+                    },
+                    {
+                        "value":161.88,
+                        "difference":4.69,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"FutArte FEC",
+                "player":"Yuri Silva",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/af/39/37/00e85bc1c3-11f6-4945-b966-696c091d20af20180326133937",
+                "difference":61.80000000000001,
+                "details":[
+                    {
+                        "value":125.98,
+                        "difference":25.98,
+                        "round":1
+                    },
+                    {
+                        "value":147.87,
+                        "difference":21.89,
+                        "round":2
+                    },
+                    {
+                        "value":158.75,
+                        "difference":10.88,
+                        "round":3
+                    },
+                    {
+                        "value":156.39,
+                        "difference":-2.36,
+                        "round":4
+                    },
+                    {
+                        "value":157.64,
+                        "difference":1.25,
+                        "round":5
+                    },
+                    {
+                        "value":155.23,
+                        "difference":-2.41,
+                        "round":6
+                    },
+                    {
+                        "value":157.1,
+                        "difference":1.87,
+                        "round":7
+                    },
+                    {
+                        "value":161.8,
+                        "difference":4.7,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Vanduka FC",
+                "player":"Vanduy Sales",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/5e/46/05/00f08bd7cf-ca3e-4734-871a-e40a53804b5e20180410154605",
+                "difference":61.77,
+                "details":[
+                    {
+                        "value":113.59,
+                        "difference":13.59,
+                        "round":1
+                    },
+                    {
+                        "value":128.04,
+                        "difference":14.45,
+                        "round":2
+                    },
+                    {
+                        "value":137.06,
+                        "difference":9.02,
+                        "round":3
+                    },
+                    {
+                        "value":144.05,
+                        "difference":6.99,
+                        "round":4
+                    },
+                    {
+                        "value":147.83,
+                        "difference":3.78,
+                        "round":5
+                    },
+                    {
+                        "value":151.72,
+                        "difference":3.89,
+                        "round":6
+                    },
+                    {
+                        "value":153.65,
+                        "difference":1.93,
+                        "round":7
+                    },
+                    {
+                        "value":161.77,
+                        "difference":8.12,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Boa Viagem E. Clube",
+                "player":"José Carlos",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/40/32/34/00bf8f80da-4356-466e-a062-da07b4b1a34020180410103234",
+                "difference":60.16000000000001,
+                "details":[
+                    {
+                        "value":125.53,
+                        "difference":25.53,
+                        "round":1
+                    },
+                    {
+                        "value":150.63,
+                        "difference":25.1,
+                        "round":2
+                    },
+                    {
+                        "value":157.19,
+                        "difference":6.56,
+                        "round":3
+                    },
+                    {
+                        "value":152.12,
+                        "difference":-5.07,
+                        "round":4
+                    },
+                    {
+                        "value":158.47,
+                        "difference":6.35,
+                        "round":5
+                    },
+                    {
+                        "value":153.9,
+                        "difference":-4.57,
+                        "round":6
+                    },
+                    {
+                        "value":156.78,
+                        "difference":2.88,
+                        "round":7
+                    },
+                    {
+                        "value":160.16,
+                        "difference":3.38,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"vovo S.C",
+                "player":"Lucas Batista",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/f6/17/23/00b142cb5a-fdfd-4976-875a-89e6a21cdef620180324211723",
+                "difference":58.32,
+                "details":[
+                    {
+                        "value":119.91,
+                        "difference":19.91,
+                        "round":1
+                    },
+                    {
+                        "value":139.07,
+                        "difference":19.16,
+                        "round":2
+                    },
+                    {
+                        "value":139.84,
+                        "difference":0.77,
+                        "round":3
+                    },
+                    {
+                        "value":142.92,
+                        "difference":3.08,
+                        "round":4
+                    },
+                    {
+                        "value":150.53,
+                        "difference":7.61,
+                        "round":5
+                    },
+                    {
+                        "value":154.31,
+                        "difference":3.78,
+                        "round":6
+                    },
+                    {
+                        "value":161.49,
+                        "difference":7.18,
+                        "round":7
+                    },
+                    {
+                        "value":158.32,
+                        "difference":-3.17,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Pau Serrado FC",
+                "player":"Elano Matos",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/82/02/44/007f184c56-0ccd-4ad9-b966-1be4c2af158220180413170244",
+                "difference":58.269999999999996,
+                "details":[
+                    {
+                        "value":120.18,
+                        "difference":20.18,
+                        "round":1
+                    },
+                    {
+                        "value":129.45,
+                        "difference":9.27,
+                        "round":2
+                    },
+                    {
+                        "value":126.58,
+                        "difference":-2.87,
+                        "round":3
+                    },
+                    {
+                        "value":126.44,
+                        "difference":-0.14,
+                        "round":4
+                    },
+                    {
+                        "value":123.64,
+                        "difference":-2.8,
+                        "round":5
+                    },
+                    {
+                        "value":133.66,
+                        "difference":10.02,
+                        "round":6
+                    },
+                    {
+                        "value":149.52,
+                        "difference":15.86,
+                        "round":7
+                    },
+                    {
+                        "value":158.27,
+                        "difference":8.75,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Emival SCCP",
+                "player":"Emival Queiroz",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/19/22/55/00d1e5a05d-2d80-4c88-b431-b30d36594c1920180411162255",
+                "difference":57.46,
+                "details":[
+                    {
+                        "value":111.13,
+                        "difference":11.13,
+                        "round":1
+                    },
+                    {
+                        "value":120.86,
+                        "difference":9.73,
+                        "round":2
+                    },
+                    {
+                        "value":121.84,
+                        "difference":0.98,
+                        "round":3
+                    },
+                    {
+                        "value":127.29,
+                        "difference":5.45,
+                        "round":4
+                    },
+                    {
+                        "value":145.92,
+                        "difference":18.63,
+                        "round":5
+                    },
+                    {
+                        "value":147.06,
+                        "difference":1.14,
+                        "round":6
+                    },
+                    {
+                        "value":149.81,
+                        "difference":2.75,
+                        "round":7
+                    },
+                    {
+                        "value":157.46,
+                        "difference":7.65,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"FaBayern FC",
+                "player":"Fabio Gurgel",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/62/39/50/0067cbf8fd-a20c-499e-bef5-f0f5c0ce5b6220180411153950",
+                "difference":56.36,
+                "details":[
+                    {
+                        "value":131.75,
+                        "difference":31.75,
+                        "round":1
+                    },
+                    {
+                        "value":140.64,
+                        "difference":8.89,
+                        "round":2
+                    },
+                    {
+                        "value":135.22,
+                        "difference":-5.42,
+                        "round":3
+                    },
+                    {
+                        "value":135,
+                        "difference":-0.22,
+                        "round":4
+                    },
+                    {
+                        "value":137.76,
+                        "difference":2.76,
+                        "round":5
+                    },
+                    {
+                        "value":141.46,
+                        "difference":3.7,
+                        "round":6
+                    },
+                    {
+                        "value":153.57,
+                        "difference":12.11,
+                        "round":7
+                    },
+                    {
+                        "value":156.36,
+                        "difference":2.79,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"FC Cara Seca",
+                "player":"Vanderson Cabral",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/58/27/49/0095a2202b-f659-485c-a073-a8708b2d215820180412132749",
+                "difference":54.65,
+                "details":[
+                    {
+                        "value":121.12,
+                        "difference":21.12,
+                        "round":1
+                    },
+                    {
+                        "value":124.21,
+                        "difference":3.09,
+                        "round":2
+                    },
+                    {
+                        "value":128.6,
+                        "difference":4.39,
+                        "round":3
+                    },
+                    {
+                        "value":135.46,
+                        "difference":6.86,
+                        "round":4
+                    },
+                    {
+                        "value":140.56,
+                        "difference":5.1,
+                        "round":5
+                    },
+                    {
+                        "value":144.92,
+                        "difference":4.36,
+                        "round":6
+                    },
+                    {
+                        "value":145.22,
+                        "difference":0.3,
+                        "round":7
+                    },
+                    {
+                        "value":154.65,
+                        "difference":9.43,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"PIEDADE FCF",
+                "player":"Daniel Oliveira",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/02/24/25/00a1fc9194-2acd-4579-b6ff-6e936d070b0220180322142425",
+                "difference":52.54,
+                "details":[
+                    {
+                        "value":124.98,
+                        "difference":24.98,
+                        "round":1
+                    },
+                    {
+                        "value":148.19,
+                        "difference":23.21,
+                        "round":2
+                    },
+                    {
+                        "value":156.94,
+                        "difference":8.75,
+                        "round":3
+                    },
+                    {
+                        "value":154.68,
+                        "difference":-2.26,
+                        "round":4
+                    },
+                    {
+                        "value":163.29,
+                        "difference":8.61,
+                        "round":5
+                    },
+                    {
+                        "value":161.44,
+                        "difference":-1.85,
+                        "round":6
+                    },
+                    {
+                        "value":146.37,
+                        "difference":-15.07,
+                        "round":7
+                    },
+                    {
+                        "value":152.54,
+                        "difference":6.17,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"JORGEJOH",
+                "player":"JORGE PEREIRA",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/aa/17/03/007dbfde16-dee2-4a0a-abf1-f1f3eedcaaaa20180412131703",
+                "difference":51.39,
+                "details":[
+                    {
+                        "value":122.07,
+                        "difference":22.07,
+                        "round":1
+                    },
+                    {
+                        "value":135.32,
+                        "difference":13.25,
+                        "round":2
+                    },
+                    {
+                        "value":132,
+                        "difference":-3.32,
+                        "round":3
+                    },
+                    {
+                        "value":139.14,
+                        "difference":7.14,
+                        "round":4
+                    },
+                    {
+                        "value":146.74,
+                        "difference":7.6,
+                        "round":5
+                    },
+                    {
+                        "value":149.72,
+                        "difference":2.98,
+                        "round":6
+                    },
+                    {
+                        "value":150.1,
+                        "difference":0.38,
+                        "round":7
+                    },
+                    {
+                        "value":151.39,
+                        "difference":1.29,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Bessa CSC",
+                "player":"Victor Bessa",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/dc/33/02/00ce9bd458-5b83-48c7-a0c0-a4710fc141dc20180411103302",
+                "difference":47.06999999999999,
+                "details":[
+                    {
+                        "value":119.05,
+                        "difference":19.05,
+                        "round":1
+                    },
+                    {
+                        "value":131.03,
+                        "difference":11.98,
+                        "round":2
+                    },
+                    {
+                        "value":132.43,
+                        "difference":1.4,
+                        "round":3
+                    },
+                    {
+                        "value":134.32,
+                        "difference":1.89,
+                        "round":4
+                    },
+                    {
+                        "value":140.67,
+                        "difference":6.35,
+                        "round":5
+                    },
+                    {
+                        "value":141.28,
+                        "difference":0.61,
+                        "round":6
+                    },
+                    {
+                        "value":145.16,
+                        "difference":3.88,
+                        "round":7
+                    },
+                    {
+                        "value":147.07,
+                        "difference":1.91,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"IslandOfCatsFootball",
+                "player":"Felipe Phelype",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/3b/30/52/00e363677a-d283-48b2-8f1a-97fee1ada03b20180326223052",
+                "difference":44.989999999999995,
+                "details":[
+                    {
+                        "value":113.44,
+                        "difference":13.44,
+                        "round":1
+                    },
+                    {
+                        "value":126.27,
+                        "difference":12.83,
+                        "round":2
+                    },
+                    {
+                        "value":121.81,
+                        "difference":-4.46,
+                        "round":3
+                    },
+                    {
+                        "value":128.81,
+                        "difference":7,
+                        "round":4
+                    },
+                    {
+                        "value":136.58,
+                        "difference":7.77,
+                        "round":5
+                    },
+                    {
+                        "value":133.01,
+                        "difference":-3.57,
+                        "round":6
+                    },
+                    {
+                        "value":137.44,
+                        "difference":4.43,
+                        "round":7
+                    },
+                    {
+                        "value":144.99,
+                        "difference":7.55,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Cearamengofc",
+                "player":"Diogo",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/9f/10/40/00385df8a3-17fd-4936-a6eb-3270855b619f20180326201040",
+                "difference":43.08,
+                "details":[
+                    {
+                        "value":108.99,
+                        "difference":8.99,
+                        "round":1
+                    },
+                    {
+                        "value":128.64,
+                        "difference":19.65,
+                        "round":2
+                    },
+                    {
+                        "value":131.29,
+                        "difference":2.65,
+                        "round":3
+                    },
+                    {
+                        "value":133.92,
+                        "difference":2.63,
+                        "round":4
+                    },
+                    {
+                        "value":140.1,
+                        "difference":6.18,
+                        "round":5
+                    },
+                    {
+                        "value":132.27,
+                        "difference":-7.83,
+                        "round":6
+                    },
+                    {
+                        "value":137.71,
+                        "difference":5.44,
+                        "round":7
+                    },
+                    {
+                        "value":143.08,
+                        "difference":5.37,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"djmss fc",
+                "player":"Daniel Mendes",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/01/40/51/003bc5bc37-a9f7-4c4c-a152-ed225a60d20120180410144051",
+                "difference":41.12,
+                "details":[
+                    {
+                        "value":88.87,
+                        "difference":-11.13,
+                        "round":1
+                    },
+                    {
+                        "value":88.67,
+                        "difference":-0.200000000000001,
+                        "round":2
+                    },
+                    {
+                        "value":93.91,
+                        "difference":5.24,
+                        "round":3
+                    },
+                    {
+                        "value":108.56,
+                        "difference":14.65,
+                        "round":4
+                    },
+                    {
+                        "value":115.25,
+                        "difference":6.69,
+                        "round":5
+                    },
+                    {
+                        "value":130.46,
+                        "difference":15.21,
+                        "round":6
+                    },
+                    {
+                        "value":136.18,
+                        "difference":5.72,
+                        "round":7
+                    },
+                    {
+                        "value":141.12,
+                        "difference":4.94,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Mumbaba Futebol Clube",
+                "player":"Messias Cezar",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_115/escudo/da/42/10/0080bc5722-e087-4531-a3b0-b3d504455cda20180423114210",
+                "difference":40.260000000000005,
+                "details":[
+                    {
+                        "value":106.03,
+                        "difference":6.03,
+                        "round":1
+                    },
+                    {
+                        "value":118.16,
+                        "difference":12.13,
+                        "round":2
+                    },
+                    {
+                        "value":133.35,
+                        "difference":15.19,
+                        "round":3
+                    },
+                    {
+                        "value":132.66,
+                        "difference":-0.69,
+                        "round":4
+                    },
+                    {
+                        "value":127.44,
+                        "difference":-5.22,
+                        "round":5
+                    },
+                    {
+                        "value":125.46,
+                        "difference":-1.98,
+                        "round":6
+                    },
+                    {
+                        "value":134.68,
+                        "difference":9.22,
+                        "round":7
+                    },
+                    {
+                        "value":140.26,
+                        "difference":5.58,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Gigante Alvinegro MF",
+                "player":"Márcio Fernandes",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/3b/42/24/00cd21c39d-27f3-453f-96eb-de0bf4c9d13b20180413164224",
+                "difference":38.44,
+                "details":[
+                    {
+                        "value":109.32,
+                        "difference":9.32,
+                        "round":1
+                    },
+                    {
+                        "value":128.74,
+                        "difference":19.42,
+                        "round":2
+                    },
+                    {
+                        "value":131.39,
+                        "difference":2.65,
+                        "round":3
+                    },
+                    {
+                        "value":128.67,
+                        "difference":-2.72,
+                        "round":4
+                    },
+                    {
+                        "value":134.25,
+                        "difference":5.58,
+                        "round":5
+                    },
+                    {
+                        "value":138.95,
+                        "difference":4.7,
+                        "round":6
+                    },
+                    {
+                        "value":140.68,
+                        "difference":1.73,
+                        "round":7
+                    },
+                    {
+                        "value":138.44,
+                        "difference":-2.24,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"simple man",
+                "player":"Renan Benevides",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/a5/56/39/0019f298fb-4fc9-47d2-a8e6-b944682db5a520180413145639",
+                "difference":36.51,
+                "details":[
+                    {
+                        "value":119.85,
+                        "difference":19.85,
+                        "round":1
+                    },
+                    {
+                        "value":117.41,
+                        "difference":-2.44,
+                        "round":2
+                    },
+                    {
+                        "value":118.1,
+                        "difference":0.69,
+                        "round":3
+                    },
+                    {
+                        "value":135.81,
+                        "difference":17.71,
+                        "round":4
+                    },
+                    {
+                        "value":141.16,
+                        "difference":5.35,
+                        "round":5
+                    },
+                    {
+                        "value":144.52,
+                        "difference":3.36,
+                        "round":6
+                    },
+                    {
+                        "value":138.89,
+                        "difference":-5.63,
+                        "round":7
+                    },
+                    {
+                        "value":136.51,
+                        "difference":-2.38,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Ragnar Lothbrok 2018",
+                "player":"Paulo Cristiano",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/9e/48/55/00c8ee0c6a-37ab-40ea-8a28-9b8be9b8649e20180411094855",
+                "difference":34.06999999999999,
+                "details":[
+                    {
+                        "value":102.61,
+                        "difference":2.61,
+                        "round":1
+                    },
+                    {
+                        "value":108.74,
+                        "difference":6.13,
+                        "round":2
+                    },
+                    {
+                        "value":109.54,
+                        "difference":0.8,
+                        "round":3
+                    },
+                    {
+                        "value":119.06,
+                        "difference":9.52,
+                        "round":4
+                    },
+                    {
+                        "value":126.91,
+                        "difference":7.85,
+                        "round":5
+                    },
+                    {
+                        "value":136.2,
+                        "difference":9.29,
+                        "round":6
+                    },
+                    {
+                        "value":131.08,
+                        "difference":-5.12,
+                        "round":7
+                    },
+                    {
+                        "value":134.07,
+                        "difference":2.99,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"C.Luiz",
+                "player":"Cayo Luiz",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/f4/51/23/003ad7972e-c85d-4ea0-a979-f373c9815ff420180326185123",
+                "difference":33.82000000000001,
+                "details":[
+                    {
+                        "value":111.68,
+                        "difference":11.68,
+                        "round":1
+                    },
+                    {
+                        "value":125.18,
+                        "difference":13.5,
+                        "round":2
+                    },
+                    {
+                        "value":127.28,
+                        "difference":2.1,
+                        "round":3
+                    },
+                    {
+                        "value":138.21,
+                        "difference":10.93,
+                        "round":4
+                    },
+                    {
+                        "value":138.73,
+                        "difference":0.52,
+                        "round":5
+                    },
+                    {
+                        "value":131.94,
+                        "difference":-6.79,
+                        "round":6
+                    },
+                    {
+                        "value":134.01,
+                        "difference":2.07,
+                        "round":7
+                    },
+                    {
+                        "value":133.82,
+                        "difference":-0.19,
+                        "round":8
+                    }
+                ]
+            },
+            {
+                "name":"Camisa10daGavea",
+                "player":"Marcelo Almeida",
+                "team_symbol":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/cd/38/52/0088e74e4f-f38a-4256-8c47-0179c02643cd20180412183852",
+                "difference":24.37,
+                "details":[
+                    {
+                        "value":110.82,
+                        "difference":10.82,
+                        "round":1
+                    },
+                    {
+                        "value":122.7,
+                        "difference":11.88,
+                        "round":2
+                    },
+                    {
+                        "value":117.7,
+                        "difference":-5,
+                        "round":3
+                    },
+                    {
+                        "value":118.6,
+                        "difference":0.9,
+                        "round":4
+                    },
+                    {
+                        "value":120.76,
+                        "difference":2.16,
+                        "round":5
+                    },
+                    {
+                        "value":125.8,
+                        "difference":5.04,
+                        "round":6
+                    },
+                    {
+                        "value":123.62,
+                        "difference":-2.18,
+                        "round":7
+                    },
+                    {
+                        "value":124.37,
+                        "difference":0.75,
+                        "round":8
                     }
                 ]
             }
