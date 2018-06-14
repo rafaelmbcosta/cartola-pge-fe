@@ -101,6 +101,14 @@ svg path, svg rect {
     border-image-slice: 1;
 }
 
+.nav-pills{
+  cursor: pointer;
+}
+
+.button-pills{
+  color: #008271;
+}
+
 /*table config */
 .card-detail-month {
   float: left;
@@ -123,7 +131,7 @@ th {
   border-top: none;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 1155px) {
   * {
     outline: none;
   }
@@ -225,6 +233,91 @@ th {
   }
   .symbol-detail img {
     height: 80px;
+    filter: grayscale(100%);
+    opacity: 0.2;
+  }
+}
+
+@media (min-width: 481px) and (max-widith: 1155px) {
+  td {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  tr td.position strong{
+    font-weight: bold;
+    font-size: 8px;
+  }
+  tr td.symbol {
+  }
+  tr th.symbol-player {
+  }
+  tr td.symbol img{
+    height: 20px;
+  }
+  img.symbol-player {
+    height: 35px;
+  }
+  tr td.position{
+    width: 70px;
+  }
+  tr td.player::after {
+  }
+  tr td.player span.team_name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1px;
+    color: #a4a4a4;
+  }
+  tr td.points {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a4a4a4;
+  }
+  tr td.more {
+    background-color: #f9f9f9;
+    width: 80px;
+  }
+  td.more:hover a.collapse-link {
+    color: #fafafa !important;
+  }
+  tr td.more:hover i {
+    color: #fafafa;
+  }
+
+  tr td.more:hover ,
+  tr td.more:active,
+  tr td.more:focus {
+    color: #fafafa;
+    border-top: 2px solid #00A38E;
+    border-bottom: 2px solid #00A38E;
+    background-color: #00A38E;
+    cursor: pointer;
+    width: 65px;
+    z-index: 999999;
+  }
+  tr td.active {
+    cursor: pointer;
+    border-top: 2px solid #00A38E;
+    border-bottom: 2px solid #00A38E;
+    background-color: #00A38E !important;
+    width: 65px;
+    z-index: 999999;
+    color: #fafafa;
+  }
+  tr td.detail {
+    padding: 15px 75px 25px;
+    background-color: #eee;
+  }
+  tr td.detail span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #afafaf;
+  }
+  .symbol-detail img {
+    height: 40px;
     filter: grayscale(100%);
     opacity: 0.2;
   }
