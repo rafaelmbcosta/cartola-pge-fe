@@ -11,7 +11,19 @@
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 482px) and (max-width: 1154px) {
+  .container-main{
+    padding-top: 80px;
+  }
+  #logo-header{
+    display: none;
+  }
+  li.nav-item{
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 1155px) {
   #menu-button{
     display: none;
   }
