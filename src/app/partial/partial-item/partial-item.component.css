@@ -42,6 +42,15 @@
     text-align: center;
     margin-bottom: 15px;
   }
+  .captain{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFA500;
+  }
+
+  .negrito{
+    font-weight: bold;
+  }
 }
 
 @media (min-width: 1155px) {
