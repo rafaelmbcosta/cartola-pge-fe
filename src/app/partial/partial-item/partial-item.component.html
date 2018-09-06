@@ -15,7 +15,7 @@
           </td>
           <td>{{partial.nickname}} <span class="captain td-points" *ngIf="partial.captain == true">(C)</span> <span class="position">({{partial.position}})</span></td>
           <td class="points-partial text-center">
-            <span [ngClass]="{'negrito' : partial.captain == false}">1{{ partial.points }}</span>
+            <span [ngClass]="{'negrito' : partial.captain == false}">{{ partial.points }}</span>
             <b class="captain" *ngIf="partial.captain == true && partial.points !== 'undefined'">(x2) 1{{ partial.points * 2 }}</b>
           </td>
           <td class="scouts">{{partial.scouts}}</td>
