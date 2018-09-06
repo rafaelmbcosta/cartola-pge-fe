@@ -1,23 +1,22 @@
 <h3> {{ partials[0].team_name}} ({{ partials[0].player_name}}) </h3>
 
 <div class="row justify-content-md-center">
-  <div class="col-md-8">
-    <table class="table table-responsive table-partial">
+  <div class="col-md-10">
+    <table class="table table-responsive">
       <thead>
-        <th colspan="3">Jogador</th>
-        <th class="text-center">Pontos</th>
-        <th>Detalhes</th>
+        <th colspan="2" class="text-center th-player">Jogador</th>
+        <th class="text-center th-points">Pontos</th>
+        <th class="th-details">Detalhes</th>
       </thead>
       <tbody>
         <tr *ngFor="let partial of partials; let i = index">
-          <td><span class="pull-right captain" *ngIf="partial.captain == true">(C)</span></td>
-          <td class="symbol pull-left">
+          <td class="symbol pull-left td-player">
             <img src="{{partial.team_logo}}" alt="{{partial.team}}"/>
           </td>
-          <td>{{partial.nickname}} <span class="position">({{partial.position}})</span></td>
+          <td>{{partial.nickname}} <span class="captain td-points" *ngIf="partial.captain == true">(C)</span> <span class="position">({{partial.position}})</span></td>
           <td class="points-partial text-center">
-            <span [ngClass]="{'negrito' : partial.captain == false}">{{ partial.points }}</span>&nbsp;
-            <b class="captain" *ngIf="partial.captain == true && partial.points !== 'undefined'">(x2) {{ partial.points * 2 }}</b>
+            <span [ngClass]="{'negrito' : partial.captain == false}">1{{ partial.points }}</span>
+            <b class="captain" *ngIf="partial.captain == true && partial.points !== 'undefined'">(x2) 1{{ partial.points * 2 }}</b>
           </td>
           <td class="scouts">{{partial.scouts}}</td>
         </tr>

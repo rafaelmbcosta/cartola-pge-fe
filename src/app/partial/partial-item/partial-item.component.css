@@ -1,3 +1,50 @@
+@media (max-width: 481px) {
+  h3{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .nickname{
+    font-size: 10px;
+  }
+  .position{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #a4a4a4;
+    font-size: 10px;
+  }
+  .points-partial{
+    font-size: 11px;
+  }
+  .captain{
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFA500;
+  }
+  .negrito{
+    font-weight: bold;
+  }
+  .scouts{
+    font-size: 9px;
+  }
+  .th-points, .td-points{
+    width: 40%;
+  }
+  .th-details, .scouts{
+    width: 20%;
+  }
+  .th-player, .td-player{
+    width: 40%;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 1154px) {
+  h3{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1155px) {
   h3{
     text-align: center;
     margin-bottom: 15px;
@@ -13,12 +60,13 @@
   .points-partial{
     font-size: 16px;
   }
-.captain{
-  font-size: 16px;
-  font-weight: bold;
-  color: #FFA500;
-}
+  .captain{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFA500;
+  }
 
-.negrito{
-  font-weight: bold;
+  .negrito{
+    font-weight: bold;
+  }
 }
