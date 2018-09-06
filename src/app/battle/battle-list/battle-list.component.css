@@ -1,42 +1,133 @@
-.battle{
-  margin-top: 20px;
-}
-.battle-round{
-  margin: 0px auto 1px auto;
-}
+@media (max-width: 481px) {
+  .battle{
+    margin-top: 20px;
+  }
+  .battle-round{
+    margin: 0px auto 1px auto;
+  }
 
-.battle-row {
-  margin: 0 0 2px 0;
-}
-.round-title{
-  background-color: #edaa06;
-  width: 25%;
-  padding: 15px;
-  margin: 0px auto;
-  border-radius: 4px 4px 0px 0px;
-  font-weight: bold;
-  color: #FFF;
-  font-size: 15px;
-}
-.text-vs{
-  background-color: #008271;
-  font-weight: bold;
-  color: #FFF;
-  font-size: 18px;
-  padding: 26px 10px;
-}
-.team-name{
-  padding: 26px 10px;
-  text-transform: capitalize;
-  color: #2d2d2d;
-  font-weight: bold;
-  background-color: #f0f0f0;
-}
+  .battle-row {
+    margin: 0 0 2px 0;
+  }
+  .round-title{
+    background-color: #edaa06;
+    width: 100%;
+    padding: 10px;
+    margin: 0px auto;
+    border-radius: 4px 4px 0px 0px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 12px;
+  }
+  .text-vs{
+    background-color: #008271;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 12px;
+    padding: 14px 5px;
+  }
+  .team-name{
+    text-transform: capitalize;
+    color: #2d2d2d;
+    font-size: 8px;
+    padding-top: 5px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
 
-.team-symbol{
-  padding: 22px 10px;
-  background-color: #dedede;
+  .team-symbol{
+    padding: 10px 1px;
+    background-color: #dedede;
+  }
+  .symbol{
+    height: 21px;
+  }
 }
-.symbol{
-  height: 35px;
+@media (min-width: 482px) and (max-width: 1154px) {
+  .battle{
+    margin-top: 20px;
+  }
+  .battle-round{
+    margin: 0px auto 1px auto;
+  }
+
+  .battle-row {
+    margin: 0 0 2px 0;
+  }
+  .round-title{
+    background-color: #edaa06;
+    width: 25%;
+    padding: 15px;
+    margin: 0px auto;
+    border-radius: 4px 4px 0px 0px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 15px;
+  }
+  .text-vs{
+    background-color: #008271;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 18px;
+    padding: 26px 10px;
+  }
+  .team-name{
+    padding: 26px 10px;
+    text-transform: capitalize;
+    color: #2d2d2d;
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+
+  .team-symbol{
+    padding: 22px 10px;
+    background-color: #dedede;
+  }
+  .symbol{
+    height: 35px;
+  }
+}
+@media (min-width: 1155px) {
+  .battle{
+    margin-top: 20px;
+  }
+  .battle-round{
+    margin: 0px auto 1px auto;
+  }
+
+  .battle-row {
+    margin: 0 0 2px 0;
+  }
+  .round-title{
+    background-color: #edaa06;
+    width: 25%;
+    padding: 15px;
+    margin: 0px auto;
+    border-radius: 4px 4px 0px 0px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 15px;
+  }
+  .text-vs{
+    background-color: #008271;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 18px;
+    padding: 26px 10px;
+  }
+  .team-name{
+    padding: 26px 10px;
+    text-transform: capitalize;
+    color: #2d2d2d;
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+
+  .team-symbol{
+    padding: 22px 10px;
+    background-color: #dedede;
+  }
+  .symbol{
+    height: 35px;
+  }
 }
