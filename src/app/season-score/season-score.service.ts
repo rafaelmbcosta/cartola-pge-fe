@@ -5,7 +5,7 @@ import { SeasonScore } from './season-score';
 
 @Injectable()
 export class SeasonScoreService {
-  private seasonScoreUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/season_score';
+  private seasonScoreUrl = 'https://cartola-pge-api.herokuapp.com/api/v1/season_score';
 
   constructor(
     private http: Http,

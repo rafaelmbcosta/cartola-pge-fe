@@ -5,7 +5,7 @@ import { Battles } from './battles';
 
 @Injectable()
 export class BattlesService {
-  private battleUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/battles';
+  private battleUrl = 'https://cartola-pge-api.herokuapp.com/api/v1/battles';
   // private battleUrl = 'http://localhost:3000/api/v1/battles';
 
   constructor(

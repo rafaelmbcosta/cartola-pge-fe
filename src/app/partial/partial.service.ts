@@ -6,7 +6,7 @@ import { Partial } from './partial';
 
 @Injectable()
 export class PartialService {
-  private partialsUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/partials';
+  private partialsUrl = 'https://cartola-pge-api.herokuapp.com/api/v1/partials';
 
   constructor(
     private http: Http,
