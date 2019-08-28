@@ -5,7 +5,7 @@ import { Currency } from './currency';
 
 @Injectable()
 export class CurrencyService {
-  private currencyUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/currencies';
+  private currencyUrl = 'https://cartola-pge-api.herokuapp.com/api/v1/currencies';
   // private currencyUrl = 'http://localhost:3000/api/v1/currencies';
 
   constructor(

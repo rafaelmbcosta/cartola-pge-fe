@@ -6,7 +6,7 @@ import { Month } from './monthly/month';
 
 @Injectable()
 export class AwardService {
-  private awardUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/';
+  private awardUrl = 'https://cartola-pge-api.herokuapp.com/api/v1/';
 
   constructor(
     private http: Http,

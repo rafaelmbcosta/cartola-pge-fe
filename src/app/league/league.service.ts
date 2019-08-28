@@ -5,7 +5,7 @@ import { League } from './league';
 
 @Injectable()
 export class LeagueService {
-  private leagueUrl = 'http://cartola-pge-api.herokuapp.com/api/v1/league';
+  private leagueUrl = 'https://cartola-pge-api.herokuapp.com/api/v1/league';
   // private leagueUrl = 'http://localhost:3000/api/v1/league';
 
   constructor(
