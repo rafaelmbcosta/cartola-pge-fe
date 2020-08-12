@@ -7,6 +7,7 @@ import {MockBackend} from "@angular/http/testing";
 import {BaseRequestOptions} from "@angular/http";
 //Components
 import { AppComponent } from './app.component';
+import { PartialListComponent } from './partial/partial-list/partial-list.component';
 //Everything else
 import { Http, HttpModule, RequestOptions } from '@angular/http';
 // Services
@@ -37,6 +38,7 @@ export function HttpFactory(backend: MockBackend, options: BaseRequestOptions){
 @NgModule({
   declarations: [
     AppComponent,
+    PartialListComponent,
     PartialItemComponent,
     DisputeMonthListComponent,
     LeagueListComponent,
